@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\user\\source\\repos\\kursovoiproject\\kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
+              "RelativeToolTip": "KURSOVOIproject\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:09:17.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
