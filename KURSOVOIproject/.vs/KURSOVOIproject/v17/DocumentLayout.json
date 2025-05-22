@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\",
+  "WorkspaceRootPath": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\user\\source\\repos\\kursovoiproject\\kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{67C8F9B8-ADF5-442B-B4AC-989308DB16E0}|SFLAPI\\SFLAPI.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\sflapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C8F9B8-ADF5-442B-B4AC-989308DB16E0}|SFLAPI\\SFLAPI.csproj|solutionrelative:sflapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\SFLAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SFLAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\SFLAPI\\Models\\User.cs",
+              "RelativeToolTip": "SFLAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:42:09.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
               "RelativeDocumentMoniker": "KURSOVOIproject\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
               "RelativeToolTip": "KURSOVOIproject\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T07:09:17.121Z",
               "EditorCaption": ""
