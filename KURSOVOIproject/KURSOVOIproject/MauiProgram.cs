@@ -1,25 +1,30 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using KURSOVOIproject.Data;        // <-- заменили YourAppNamespace на KURSOVOIproject
+using Microsoft.Maui.Storage;
+using System.IO;
+using KURSOVOIproject.Services;
+using KURSOVOIproject.ViewModels;
+using KURSOVOIproject.Views;
 
-namespace KURSOVOIproject
+public static class MauiProgram
 {
-    public static class MauiProgram
+    public static MauiApp CreateMauiApp()
     {
-        public static MauiApp CreateMauiApp()
-        {
-            var builder = MauiApp.CreateBuilder();
-            builder
-                .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+        var builder = MauiApp.CreateBuilder();
+        // … ваши остальные настройки
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+        string dbPath = Path.Combine(FileSystem.AppDataDirectory, "sfl.db");
+        builder.Services.AddDbContext<SflDbContext>(opts =>
+            opts.UseSqlite($"Filename={dbPath}"));
+        builder.Services.AddScoped<IStudentService, StudentService>();
+        builder.Services.AddScoped<ICompanyService, CompanyService>();
+        builder.Services.AddScoped<IInternshipService, InternshipService>();
+        builder.Services.AddScoped<IApplicationService, ApplicationService>();
+        builder.Services.AddScoped<ISpecializationService, SpecializationService>();
+        builder.Services.AddTransient<RegistrationViewModel>();
+        builder.Services.AddTransient<RegistrationPage>();
 
-            return builder.Build();
-        }
+
+        return builder.Build();
     }
 }

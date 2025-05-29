@@ -1,15 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Shell
     x:Class="KURSOVOIproject.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:KURSOVOIproject"
-    Shell.FlyoutBehavior="Flyout"
-    Title="KURSOVOIproject">
+    xmlns:views="clr-namespace:KURSOVOIproject.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="SFL">
 
+    <!-- Регистрируем страницу регистрации (доступ по маршруту) -->
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+      Route="RegistrationPage"
+      ContentTemplate="{DataTemplate views:RegistrationPage}"
+      IsVisible="False" />
 
+    <!-- Главное таб-меню -->
+    <TabBar>
+
+        <!-- Поиск стажировок --><!--
+        <ShellContent
+        Title="Поиск"
+        Icon="icon_search.png"
+        Route="SearchPage"
+        ContentTemplate="{DataTemplate views:SearchPage}" />
+
+        --><!-- Избранное --><!--
+        <ShellContent
+        Title="Избранное"
+        Icon="icon_favorite.png"
+        Route="FavoritesPage"
+        ContentTemplate="{DataTemplate views:FavoritesPage}" />
+
+        --><!-- Отклики --><!--
+        <ShellContent
+        Title="Отклики"
+        Icon="icon_applications.png"
+        Route="ApplicationsPage"
+        ContentTemplate="{DataTemplate views:ApplicationsPage}" />
+
+        --><!-- Сообщения --><!--
+        <ShellContent
+        Title="Сообщения"
+        Icon="icon_chat.png"
+        Route="ChatPage"
+        ContentTemplate="{DataTemplate views:ChatPage}" />
+
+        --><!-- Профиль --><!--
+        <ShellContent
+        Title="Профиль"
+        Icon="icon_profile.png"
+        Route="ProfilePage"
+        ContentTemplate="{DataTemplate views:ProfilePage}" />-->
+
+    </TabBar>
 </Shell>

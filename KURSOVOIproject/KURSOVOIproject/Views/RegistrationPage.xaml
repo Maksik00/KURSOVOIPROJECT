@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="KURSOVOIproject.Views.RegistrationPage"
+    Title="Регистрация"
+    BackgroundColor="{StaticResource BackgroundColor}"
+    xmlns:vm="clr-namespace:KURSOVOIproject.ViewModels">
+
+    <!-- Убираем здесь BindingContext! -->
+    <!-- <ContentPage.BindingContext>…</ContentPage.BindingContext> -->
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Entry Placeholder="Имя" Text="{Binding Name}" />
+            <Entry Placeholder="Телефон (+7…)" Text="{Binding TelNumber}"
+             Keyboard="Telephone" />
+            <Entry Placeholder="Курс (число)" Text="{Binding Course}"
+             Keyboard="Numeric" />
+
+            <Picker Title="Специализация"
+              ItemsSource="{Binding Specializations}"
+              ItemDisplayBinding="{Binding Name}"
+              SelectedItem="{Binding SelectedSpecialization}" />
+
+            <Entry Placeholder="Пароль" Text="{Binding Password}" IsPassword="True" />
+
+            <Button Text="Зарегистрироваться"
+              Command="{Binding RegisterCommand}"
+              IsEnabled="{Binding IsNotBusy}" />
+
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
+                         IsRunning="{Binding IsBusy}"
+                         HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
