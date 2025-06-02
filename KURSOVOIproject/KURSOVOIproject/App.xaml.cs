@@ -8,15 +8,14 @@ namespace KURSOVOIproject
         public App()
         {
             InitializeComponent();
+
+            // Назначаем AppShell в качестве главной страницы приложения
             MainPage = new AppShell();
-            Shell.Current.GoToAsync("//RegistrationPage");
         }
 
-        // Для Windows/macCatalyst и остальных MAUI-платформ
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            // Тут мы говорим, чтобы приложение рендерило именно наш Shell
-            return new Window(new AppShell());
+            return new Window(MainPage);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using KURSOVOIproject.Data;
@@ -20,6 +21,15 @@ namespace KURSOVOIproject.Services
             await _db.Students
                      .Include(s => s.Specialization)
                      .SingleOrDefaultAsync(s => s.Id == id);
+
+        // ← Новая реализация
+        public async Task<Student> GetByPhoneAndPasswordAsync(string phone, string password)
+        {
+            // Заменили SingleOrDefaultAsync на FirstOrDefaultAsync
+            return await _db.Students
+                .Where(s => s.TelNumber == phone && s.Password == password)
+                .FirstOrDefaultAsync();
+        }
 
         public async Task AddAsync(Student student)
         {

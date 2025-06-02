@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.CompanyRegistrationPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Регистрация компании"
+    BackgroundColor="Black"
+    Padding="20">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <!-- Поле: Название компании -->
+            <Label Text="Название компании"
+             TextColor="White"
+             FontSize="16" />
+            <Entry x:Name="NameEntry"
+             Placeholder="Введите название"
+             PlaceholderColor="Gray"
+             TextColor="White"
+             BackgroundColor="#222222" />
+
+            <!-- Поле: Город -->
+            <Label Text="Город"
+             TextColor="White"
+             FontSize="16" />
+            <Entry x:Name="CityEntry"
+             Placeholder="Введите город"
+             PlaceholderColor="Gray"
+             TextColor="White"
+             BackgroundColor="#222222" />
+
+            <!-- Поле: Улица -->
+            <Label Text="Улица"
+             TextColor="White"
+             FontSize="16" />
+            <Entry x:Name="StreetEntry"
+             Placeholder="Введите улицу"
+             PlaceholderColor="Gray"
+             TextColor="White"
+             BackgroundColor="#222222" />
+
+            <!-- Поле: Номер дома -->
+            <Label Text="Номер дома"
+             TextColor="White"
+             FontSize="16" />
+            <Entry x:Name="BuildingEntry"
+             Placeholder="Введите номер дома"
+             PlaceholderColor="Gray"
+             TextColor="White"
+             BackgroundColor="#222222" />
+
+            <!-- Поле: Пароль -->
+            <Label Text="Пароль"
+             TextColor="White"
+             FontSize="16" />
+            <Entry x:Name="PasswordEntry"
+             IsPassword="True"
+             Placeholder="Введите пароль (4+ символа)"
+             PlaceholderColor="Gray"
+             TextColor="White"
+             BackgroundColor="#222222" />
+
+            <!-- Кнопка Зарегистрироваться -->
+            <Button Text="Зарегистрироваться"
+              BackgroundColor="#007AFF"
+              TextColor="White"
+              CornerRadius="8"
+              HeightRequest="45"
+              Clicked="OnRegisterButtonClicked" />
+
+            <!-- Кнопка: Уже есть аккаунт? Войти -->
+            <Button Text="У меня есть аккаунт. Войти"
+              BackgroundColor="Transparent"
+              BorderColor="#007AFF"
+              TextColor="#007AFF"
+              CornerRadius="8"
+              HeightRequest="45"
+              Clicked="OnAlreadyHaveAccountClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

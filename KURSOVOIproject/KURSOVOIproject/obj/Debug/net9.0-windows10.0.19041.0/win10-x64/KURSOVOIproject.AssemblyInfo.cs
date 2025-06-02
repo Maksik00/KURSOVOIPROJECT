@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KURSOVOIproject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9b35dd30c094410e7dcea2437e682bf54c0d8a58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ef2c4ff83e8bf41c0074f891df9eeeaad12a3259")]
 [assembly: System.Reflection.AssemblyProductAttribute("KURSOVOIproject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KURSOVOIproject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

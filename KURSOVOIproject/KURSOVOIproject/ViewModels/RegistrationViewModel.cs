@@ -7,7 +7,6 @@ using KURSOVOIproject.Models;
 using KURSOVOIproject.Services;
 using Microsoft.Maui.Controls;
 
-
 namespace KURSOVOIproject.ViewModels
 {
     public partial class RegistrationViewModel : ObservableObject
@@ -39,6 +38,7 @@ namespace KURSOVOIproject.ViewModels
 
         // Флаги
         [ObservableProperty] bool isBusy;
+        public bool IsNotBusy => !IsBusy;
 
         // Команды
         public IAsyncRelayCommand LoadSpecializationsCommand { get; }
@@ -91,9 +91,12 @@ namespace KURSOVOIproject.ViewModels
 
                 await _studentService.AddAsync(student);
 
-                // После успешной регистрации — переходим на главную страницу табов
-                // Предполагаем, что AppShell уже зарегистрирован и содержимо SearchPage
-                await Shell.Current.GoToAsync("//SearchPage");
+                // После успешной регистрации — пока оставим здесь просто сообщение.
+                await Application.Current.MainPage.DisplayAlert(
+                    "Успех", "Регистрация прошла успешно!", "OK");
+
+                // Позже, когда появятся другие страницы, можно будет перейти:
+                // await Shell.Current.GoToAsync("//SearchPage");
             }
             catch (Exception ex)
             {
@@ -103,6 +106,7 @@ namespace KURSOVOIproject.ViewModels
             finally
             {
                 IsBusy = false;
+                OnPropertyChanged(nameof(IsNotBusy));
             }
         }
     }

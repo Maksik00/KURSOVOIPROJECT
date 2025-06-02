@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
+    x:Class="KURSOVOIproject.Views.RegistrationPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="KURSOVOIproject.Views.RegistrationPage"
     Title="Регистрация"
-    BackgroundColor="{StaticResource BackgroundColor}"
-    xmlns:vm="clr-namespace:KURSOVOIproject.ViewModels">
-
-    <!-- Убираем здесь BindingContext! -->
-    <!-- <ContentPage.BindingContext>…</ContentPage.BindingContext> -->
+    BackgroundColor="Black">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
+            <Entry
+        x:Name="NameEntry"
+        Placeholder="Имя"
+        TextColor="White"
+        PlaceholderColor="Gray" />
 
-            <Entry Placeholder="Имя" Text="{Binding Name}" />
-            <Entry Placeholder="Телефон (+7…)" Text="{Binding TelNumber}"
-             Keyboard="Telephone" />
-            <Entry Placeholder="Курс (число)" Text="{Binding Course}"
-             Keyboard="Numeric" />
+            <Entry
+        x:Name="PhoneEntry"
+        Placeholder="Телефон (+7…)"
+        Keyboard="Telephone"
+        TextColor="White"
+        PlaceholderColor="Gray" />
 
-            <Picker Title="Специализация"
-              ItemsSource="{Binding Specializations}"
-              ItemDisplayBinding="{Binding Name}"
-              SelectedItem="{Binding SelectedSpecialization}" />
+            <Entry
+        x:Name="CourseEntry"
+        Placeholder="Курс (число)"
+        Keyboard="Numeric"
+        TextColor="White"
+        PlaceholderColor="Gray" />
 
-            <Entry Placeholder="Пароль" Text="{Binding Password}" IsPassword="True" />
+            <Picker
+        x:Name="SpecPicker"
+        Title="Выберите специализацию"
+        TextColor="White"
+        TitleColor="Gray" />
 
-            <Button Text="Зарегистрироваться"
-              Command="{Binding RegisterCommand}"
-              IsEnabled="{Binding IsNotBusy}" />
+            <Entry
+        x:Name="PasswordEntry"
+        Placeholder="Пароль"
+        IsPassword="True"
+        TextColor="White"
+        PlaceholderColor="Gray" />
 
-            <ActivityIndicator IsVisible="{Binding IsBusy}"
-                         IsRunning="{Binding IsBusy}"
-                         HorizontalOptions="Center" />
-
+            <Button
+        Text="Зарегистрироваться"
+        BackgroundColor="#007ACC"
+        TextColor="White"
+        CornerRadius="8"
+        HeightRequest="50"
+        Clicked="OnRegisterButtonClicked" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

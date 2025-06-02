@@ -65,8 +65,32 @@ build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/CompanyRegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyRegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompanyRegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompanyRegistrationPage.xaml
+
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/LandingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.LandingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LandingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LandingPage.xaml
+
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
 [C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.RegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegistrationPage.xaml
+
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
