@@ -10,9 +10,12 @@ namespace KURSOVOIproject.Models
         public DateTime SubmissionDate
         {
             get => _submissionDate;
-            set => _submissionDate = value == default
-                ? throw new ArgumentException("Дата подачи обязательна.")
-                : value;
+            set
+            {
+                if (value == default)
+                    throw new ArgumentException("Дата подачи обязательна.");
+                _submissionDate = value;
+            }
         }
 
         private DateTime? _responseDate;
@@ -30,9 +33,9 @@ namespace KURSOVOIproject.Models
         public bool IsAccepted { get; set; }
 
         public int IdStudent { get; set; }
-        public Student Student { get; set; } = default!;
+        public Student Student { get; set; } = null!;
 
         public int IdInternship { get; set; }
-        public Internship Internship { get; set; } = default!;
+        public Internship Internship { get; set; } = null!;
     }
 }

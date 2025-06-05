@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.CreateInternshipPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sys="clr-namespace:System;assembly=netstandard"
+    Title="Создать стажировку"
+    BackgroundColor="Black"
+    Padding="20">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <!-- Поле: Название стажировки -->
+            <Label
+                Text="Название стажировки"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="TitleEntry"
+                Placeholder="Название"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44" />
+
+            <!-- Поле: Дата начала -->
+            <Label
+                Text="Дата начала"
+                TextColor="White"
+                FontSize="16" />
+            <DatePicker
+                x:Name="StartDatePicker"
+                TextColor="White"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Date="{x:Static sys:DateTime.Today}" />
+
+            <!-- Поле: Дата окончания -->
+            <Label
+                Text="Дата окончания"
+                TextColor="White"
+                FontSize="16" />
+            <DatePicker
+                x:Name="EndDatePicker"
+                TextColor="White"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Date="{x:Static sys:DateTime.Today}" />
+
+            <!-- Поле: Требования -->
+            <Label
+                Text="Требования"
+                TextColor="White"
+                FontSize="16" />
+            <Editor
+                x:Name="RequirementsEditor"
+                Placeholder="Опишите требования"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="100"
+                AutoSize="TextChanges" />
+
+            <!-- Кнопка: Сохранить -->
+            <Button
+                Text="Сохранить"
+                BackgroundColor="#28A745"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="45"
+                Clicked="OnSaveInternshipClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -11,72 +11,94 @@
         <VerticalStackLayout Spacing="20">
 
             <!-- Поле: Название компании -->
-            <Label Text="Название компании"
-             TextColor="White"
-             FontSize="16" />
-            <Entry x:Name="NameEntry"
-             Placeholder="Введите название"
-             PlaceholderColor="Gray"
-             TextColor="White"
-             BackgroundColor="#222222" />
+            <Label
+                Text="Название компании"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="NameEntry"
+                Placeholder="Введите название"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Keyboard="Text" />
 
             <!-- Поле: Город -->
-            <Label Text="Город"
-             TextColor="White"
-             FontSize="16" />
-            <Entry x:Name="CityEntry"
-             Placeholder="Введите город"
-             PlaceholderColor="Gray"
-             TextColor="White"
-             BackgroundColor="#222222" />
+            <Label
+                Text="Город"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="CityEntry"
+                Placeholder="Введите город"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Keyboard="Text" />
 
             <!-- Поле: Улица -->
-            <Label Text="Улица"
-             TextColor="White"
-             FontSize="16" />
-            <Entry x:Name="StreetEntry"
-             Placeholder="Введите улицу"
-             PlaceholderColor="Gray"
-             TextColor="White"
-             BackgroundColor="#222222" />
+            <Label
+                Text="Улица"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="StreetEntry"
+                Placeholder="Введите улицу"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Keyboard="Text" />
 
-            <!-- Поле: Номер дома -->
-            <Label Text="Номер дома"
-             TextColor="White"
-             FontSize="16" />
-            <Entry x:Name="BuildingEntry"
-             Placeholder="Введите номер дома"
-             PlaceholderColor="Gray"
-             TextColor="White"
-             BackgroundColor="#222222" />
+            <!-- Поле: Дом/Корпус -->
+            <Label
+                Text="Дом/Корпус"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="BuildingEntry"
+                Placeholder="Введите номер дома"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Keyboard="Text" />
 
             <!-- Поле: Пароль -->
-            <Label Text="Пароль"
-             TextColor="White"
-             FontSize="16" />
-            <Entry x:Name="PasswordEntry"
-             IsPassword="True"
-             Placeholder="Введите пароль (4+ символа)"
-             PlaceholderColor="Gray"
-             TextColor="White"
-             BackgroundColor="#222222" />
+            <Label
+                Text="Пароль"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="PasswordEntry"
+                IsPassword="True"
+                Placeholder="Введите пароль"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44"
+                Keyboard="Text" />
 
-            <!-- Кнопка Зарегистрироваться -->
-            <Button Text="Зарегистрироваться"
-              BackgroundColor="#007AFF"
-              TextColor="White"
-              CornerRadius="8"
-              HeightRequest="45"
-              Clicked="OnRegisterButtonClicked" />
+            <!-- Кнопка: Зарегистрироваться -->
+            <Button
+                Text="Зарегистрироваться"
+                BackgroundColor="#28A745"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="45"
+                Clicked="OnRegisterButtonClicked" />
 
             <!-- Кнопка: Уже есть аккаунт? Войти -->
-            <Button Text="У меня есть аккаунт. Войти"
-              BackgroundColor="Transparent"
-              BorderColor="#007AFF"
-              TextColor="#007AFF"
-              CornerRadius="8"
-              HeightRequest="45"
-              Clicked="OnAlreadyHaveAccountClicked" />
+            <Button
+                Text="У меня есть аккаунт. Войти"
+                BackgroundColor="Transparent"
+                BorderColor="#007AFF"
+                TextColor="#007AFF"
+                CornerRadius="8"
+                HeightRequest="45"
+                Clicked="OnAlreadyHaveAccountClicked" />
 
         </VerticalStackLayout>
     </ScrollView>

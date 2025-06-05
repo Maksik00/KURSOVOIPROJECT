@@ -1,7 +1,7 @@
-using System;
 using Microsoft.Maui.Controls;
-using KURSOVOIproject.Models;
 using KURSOVOIproject.Services;
+using Microsoft.Maui.Storage;
+using KURSOVOIproject.Models;
 
 namespace KURSOVOIproject.Views
 {
@@ -15,58 +15,49 @@ namespace KURSOVOIproject.Views
             _companyService = companyService;
         }
 
-        private async void OnRegisterButtonClicked(object sender, EventArgs e)
+        private async void OnRegisterButtonClicked(object sender, System.EventArgs e)
         {
-            // Считываем данные из полей
             string name = NameEntry.Text?.Trim() ?? "";
             string city = CityEntry.Text?.Trim() ?? "";
             string street = StreetEntry.Text?.Trim() ?? "";
             string building = BuildingEntry.Text?.Trim() ?? "";
             string password = PasswordEntry.Text?.Trim() ?? "";
 
-            // Проверяем, что всё заполнено
-            if (string.IsNullOrWhiteSpace(name) ||
-                string.IsNullOrWhiteSpace(city) ||
-                string.IsNullOrWhiteSpace(street) ||
-                string.IsNullOrWhiteSpace(building) ||
-                string.IsNullOrWhiteSpace(password))
+            if (string.IsNullOrEmpty(name) ||
+                string.IsNullOrEmpty(city) ||
+                string.IsNullOrEmpty(street) ||
+                string.IsNullOrEmpty(building) ||
+                string.IsNullOrEmpty(password))
             {
-                await DisplayAlert("Ошибка", "Пожалуйста, заполните все поля.", "OK");
+                await DisplayAlert("Ошибка", "Заполните все поля.", "ОК");
                 return;
             }
 
-            try
+            // Создаём новый объект Company
+            var newCompany = new Company
             {
-                // Создаём новый объект Company
-                var newCompany = new Company
-                {
-                    Name = name,
-                    City = city,
-                    Street = street,
-                    Building = building,
-                    Password = password
-                };
+                Name = name,
+                City = city,
+                Street = street,
+                Building = building,
+                Password = password
+            };
 
-                // Добавляем в базу через сервис
-                await _companyService.AddAsync(newCompany);
+            // Сохраняем в базу через сервис
+            await _companyService.CreateAsync(newCompany);
 
-                // Уведомляем пользователя и сразу предлагаем авторизоваться
-                await DisplayAlert("Успех", "Компания успешно зарегистрирована!", "OK");
+            // Сохраняем в Preferences
+            Preferences.Default.Set("CurrentCompanyId", newCompany.Id);
+            Preferences.Default.Set("IsCompanyLoggedIn", true);
 
-                // После регистрации — переходим на страницу логина для компаний
-                await Shell.Current.GoToAsync("//CompanyLoginPage");
-            }
-            catch (Exception ex)
-            {
-                // Если компания с таким именем уже есть или другая ошибка
-                await DisplayAlert("Ошибка", ex.Message, "OK");
-            }
+            // Переходим на CompanyProfilePage
+            await Shell.Current.GoToAsync("CompanyProfile");
         }
 
-        private async void OnAlreadyHaveAccountClicked(object sender, EventArgs e)
+        private async void OnAlreadyHaveAccountClicked(object sender, System.EventArgs e)
         {
-            // Просто навигируем на страницу логина для компаний
-            await Shell.Current.GoToAsync("//CompanyLoginPage");
+            // Если у компании уже есть аккаунт
+            await Shell.Current.GoToAsync("CompanyLogin");
         }
     }
 }

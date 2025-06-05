@@ -23,8 +23,17 @@ namespace KURSOVOIproject.Services
 
         public async Task AddAsync(Company company)
         {
-            _db.Companies.Add(company);
+            await _db.Companies.AddAsync(company);
             await _db.SaveChangesAsync();
+        }
+
+        public async Task<Company?> GetByNameAndPasswordAsync(string name, string password)
+        {
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(password))
+                return null;
+
+            return await _db.Companies
+                .SingleOrDefaultAsync(c => c.Name == name && c.Password == password);
         }
 
         public async Task UpdateAsync(Company company)

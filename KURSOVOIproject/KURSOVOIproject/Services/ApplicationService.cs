@@ -38,7 +38,7 @@ namespace KURSOVOIproject.Services
 
         public async Task AddAsync(ApplicationEntity application)
         {
-            _db.Applications.Add(application);
+            await _db.Applications.AddAsync(application);
             await _db.SaveChangesAsync();
         }
 

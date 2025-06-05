@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel; // MVVM Toolkit
 using CommunityToolkit.Mvvm.Input;
 using KURSOVOIproject.Models;
 using KURSOVOIproject.Services;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Storage;
 
 namespace KURSOVOIproject.ViewModels
 {
@@ -26,25 +27,43 @@ namespace KURSOVOIproject.ViewModels
             RegisterCommand = new AsyncRelayCommand(RegisterAsync);
         }
 
-        // Поля формы
-        [ObservableProperty] string name;
-        [ObservableProperty] string telNumber;
-        [ObservableProperty] int course;
-        [ObservableProperty] string password;
-        [ObservableProperty] Specialization selectedSpecialization;
+        // ===========================
+        // ===== ПОЛЯ И СВОЙСТВА ====
+        // ===========================
 
-        // Сборник специализаций
+        [ObservableProperty]
+        private string name;
+
+        [ObservableProperty]
+        private string telNumber;
+
+        [ObservableProperty]
+        private int course;
+
+        [ObservableProperty]
+        private string password;
+
+        [ObservableProperty]
+        private Specialization selectedSpecialization;
+
         public ObservableCollection<Specialization> Specializations { get; }
 
-        // Флаги
-        [ObservableProperty] bool isBusy;
+        [ObservableProperty]
+        private bool isBusy;
+
         public bool IsNotBusy => !IsBusy;
 
-        // Команды
+        // ===========================
+        // ======= КОМАНДЫ ==========
+        // ===========================
+
         public IAsyncRelayCommand LoadSpecializationsCommand { get; }
         public IAsyncRelayCommand RegisterCommand { get; }
 
-        // Загрузка списка специализаций
+        // ===========================
+        // ======= МЕТОДЫ ===========
+        // ===========================
+
         private async Task LoadSpecializationsAsync()
         {
             if (IsBusy) return;
@@ -56,23 +75,28 @@ namespace KURSOVOIproject.ViewModels
                 foreach (var sp in list)
                     Specializations.Add(sp);
             }
+            catch
+            {
+                // Игнорируем ошибку или сообщаем пользователю
+            }
             finally
             {
                 IsBusy = false;
             }
         }
 
-        // Обработка регистрации
         private async Task RegisterAsync()
         {
             if (IsBusy) return;
+
             if (string.IsNullOrWhiteSpace(Name)
-             || string.IsNullOrWhiteSpace(TelNumber)
-             || SelectedSpecialization == null
-             || string.IsNullOrWhiteSpace(Password))
+                || string.IsNullOrWhiteSpace(TelNumber)
+                || SelectedSpecialization == null
+                || string.IsNullOrWhiteSpace(Password)
+                || Course <= 0)
             {
                 await Application.Current.MainPage.DisplayAlert(
-                    "Ошибка", "Заполните все поля", "OK");
+                    "Ошибка", "Заполните все поля корректно", "OK");
                 return;
             }
 
@@ -91,12 +115,15 @@ namespace KURSOVOIproject.ViewModels
 
                 await _studentService.AddAsync(student);
 
-                // После успешной регистрации — пока оставим здесь просто сообщение.
+                // Сохраняем в Preferences
+                Preferences.Default.Set("CurrentStudentId", student.Id);
+                Preferences.Default.Set("IsStudentLoggedIn", true);
+
+                // После успешной регистрации — переходим на Search
+                await Shell.Current.GoToAsync("//Search");
+
                 await Application.Current.MainPage.DisplayAlert(
                     "Успех", "Регистрация прошла успешно!", "OK");
-
-                // Позже, когда появятся другие страницы, можно будет перейти:
-                // await Shell.Current.GoToAsync("//SearchPage");
             }
             catch (Exception ex)
             {

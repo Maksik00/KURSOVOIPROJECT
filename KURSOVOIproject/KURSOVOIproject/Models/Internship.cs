@@ -1,10 +1,13 @@
-﻿namespace KURSOVOIproject.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace KURSOVOIproject.Models
 {
     public class Internship
     {
         public int Id { get; set; }
 
-        private string _title = default!;
+        private string _title = string.Empty;
         public string Title
         {
             get => _title;
@@ -12,7 +15,7 @@
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Название стажировки обязательно.");
-                _title = value;
+                _title = value.Trim();
             }
         }
 
@@ -40,7 +43,7 @@
             }
         }
 
-        private string _requirements = default!;
+        private string _requirements = string.Empty;
         public string Requirements
         {
             get => _requirements;
@@ -48,16 +51,13 @@
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Требования обязательны.");
-                _requirements = value;
+                _requirements = value.Trim();
             }
         }
 
         public int IdCompany { get; set; }
+        public Company Company { get; set; } = null!;
 
-        // ← навигационное свойство на Company
-        public Company Company { get; set; } = default!;
-
-        // ← коллекция откликов
         public ICollection<ApplicationEntity> Applications { get; set; } = new List<ApplicationEntity>();
     }
 }

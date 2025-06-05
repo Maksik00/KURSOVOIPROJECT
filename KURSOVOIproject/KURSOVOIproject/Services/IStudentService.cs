@@ -9,10 +9,11 @@ namespace KURSOVOIproject.Services
         Task<List<Student>> GetAllAsync();
         Task<Student?> GetByIdAsync(int id);
 
-        // ← Добавляем этот метод
+        // ← Метод для входа: возвращает null, если не найдено
         Task<Student?> GetByPhoneAndPasswordAsync(string telNumber, string password);
 
         Task AddAsync(Student student);
+        Task CreateAsync(Student student);
         Task UpdateAsync(Student student);
         Task DeleteAsync(int id);
     }

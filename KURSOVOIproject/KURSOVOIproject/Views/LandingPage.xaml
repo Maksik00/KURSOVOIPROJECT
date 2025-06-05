@@ -3,58 +3,103 @@
     x:Class="KURSOVOIproject.Views.LandingPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="SFL"
-    BackgroundColor="Black">
+    Title="Добро пожаловать"
+    BackgroundColor="Black"
+    Padding="20">
 
-    <Grid RowDefinitions="*, Auto, Auto, 30">
-        <!-- Логотип «S» посередине -->
-        <StackLayout Grid.Row="0"
-                 VerticalOptions="Center"
-                 HorizontalOptions="Center"
-                 Spacing="20">
-            <Frame WidthRequest="80"
-             HeightRequest="80"
-             BackgroundColor="Red"
-             CornerRadius="8"
-             HasShadow="False"
-             VerticalOptions="Center"
-             HorizontalOptions="Center">
-                <Label Text="S"
-               TextColor="White"
-               FontSize="60"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
+    <ScrollView>
+        <VerticalStackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Spacing="40">
+
+            <!-- ���������� ������� -->
+            <Frame
+                WidthRequest="80"
+                HeightRequest="80"
+                BackgroundColor="#FF0000"
+                CornerRadius="16">
+                <Label
+                    Text="S"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="36"
+                    FontAttributes="Bold" />
             </Frame>
 
-            <Label Text="Работа мечты в твоем кармане"
-             TextColor="White"
-             FontSize="24"
-             HorizontalOptions="Center"
-             HorizontalTextAlignment="Center" />
-        </StackLayout>
+            <Label
+                Text="Работа мечты в вашем кармане"
+                TextColor="White"
+                FontSize="24"
+                HorizontalOptions="Center" />
 
-        <!-- Кнопка «Я новый пользователь» -->
-        <Button
-      Grid.Row="1"
-      Text="Я новый пользователь"
-      BackgroundColor="#00BFFF"
-      TextColor="White"
-      CornerRadius="8"
-      HeightRequest="50"
-      Margin="20,10,20,0"
-      Clicked="OnRegisterButtonClicked" />
+            <!-- Блок «Для студентов» -->
+            <Frame
+                BackgroundColor="#1E1E1E"
+                CornerRadius="12"
+                Padding="15"
+                HasShadow="False">
+                <VerticalStackLayout Spacing="15">
+                    <Label
+                        Text="Для студентов"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center" />
 
-        <!-- Кнопка «У меня есть аккаунт. Войти» -->
-        <Button
-      Grid.Row="2"
-      Text="У меня есть аккаунт. Войти"
-      BackgroundColor="Transparent"
-      BorderColor="#00BFFF"
-      BorderWidth="2"
-      TextColor="#00BFFF"
-      CornerRadius="8"
-      HeightRequest="50"
-      Margin="20,10,20,20"
-      Clicked="OnLoginButtonClicked" />
-    </Grid>
+                    <Button
+                        Text="Я новый студент. Регистрация"
+                        BackgroundColor="#007AFF"
+                        TextColor="White"
+                        CornerRadius="8"
+                        HeightRequest="45"
+                        Clicked="OnStudentRegisterClicked" />
+
+                    <Button
+                        Text="Я студент. Войти"
+                        BackgroundColor="Transparent"
+                        BorderColor="#007AFF"
+                        TextColor="#007AFF"
+                        CornerRadius="8"
+                        HeightRequest="45"
+                        Clicked="OnStudentLoginClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Блок «Для компаний» -->
+            <Frame
+                BackgroundColor="#1E1E1E"
+                CornerRadius="12"
+                Padding="15"
+                HasShadow="False">
+                <VerticalStackLayout Spacing="15">
+                    <Label
+                        Text="Для компаний"
+                        TextColor="White"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center" />
+
+                    <Button
+                        Text="Я новая компания. Регистрация"
+                        BackgroundColor="#28A745"
+                        TextColor="White"
+                        CornerRadius="8"
+                        HeightRequest="45"
+                        Clicked="OnCompanyRegisterClicked" />
+
+                    <Button
+                        Text="Я компания. Войти"
+                        BackgroundColor="Transparent"
+                        BorderColor="#28A745"
+                        TextColor="#28A745"
+                        CornerRadius="8"
+                        HeightRequest="45"
+                        Clicked="OnCompanyLoginClicked" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -7,6 +7,7 @@ namespace KURSOVOIproject.Services
 {
     public interface IInternshipService
     {
+        // Старая сигнатура: получение со всеми фильтрами
         Task<List<Internship>> GetAllAsync(
             string? field = null,
             string? location = null,
@@ -17,5 +18,9 @@ namespace KURSOVOIproject.Services
         Task AddAsync(Internship internship);
         Task UpdateAsync(Internship internship);
         Task DeleteAsync(int id);
+
+        // -------------- Добавлено специально для SearchPage --------------
+        Task<List<Internship>> GetAllWithCompaniesAsync();
+        Task<List<Internship>> SearchByTitleAsync(string title);
     }
 }

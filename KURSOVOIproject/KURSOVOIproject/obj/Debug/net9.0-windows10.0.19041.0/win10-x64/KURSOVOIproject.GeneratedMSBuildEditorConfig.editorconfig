@@ -65,11 +65,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/CompanyLoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyLoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompanyLoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompanyLoginPage.xaml
+
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/CompanyProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompanyProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompanyProfilePage.xaml
+
 [C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/CompanyRegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyRegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CompanyRegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CompanyRegistrationPage.xaml
+
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/CreateInternshipPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CreateInternshipPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CreateInternshipPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CreateInternshipPage.xaml
 
 [C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/LandingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -94,3 +112,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.SearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
+
+[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/StudentProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.StudentProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudentProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudentProfilePage.xaml

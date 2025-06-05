@@ -4,48 +4,66 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:KURSOVOIproject.Views"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:converters="clr-namespace:KURSOVOIproject.Converters"
     Title="SFL">
 
-    <!-- 
-    1) LandingPage – скрытая страница, но мы сделаем её «первым ShellContent»
-    2) Все остальные (LoginPage, RegistrationPage, SearchPage) также регистрируем для навигации 
-  -->
+    <!-- 1) Общие ресурсы Shell: в том числе конвертеры -->
+    <Shell.Resources>
+        <ResourceDictionary>
+            <!-- Конвертер из bool → имя иконки Heart (используется в SearchPage) -->
+            <converters:BoolToHeartIconConverter x:Key="BoolToHeartIconConverter" />
+        </ResourceDictionary>
+    </Shell.Resources>
 
-    <!-- LandingPage, будет открыт сразу при запуске -->
+    <!-- 2) Регистрируем видимые ContentPage как отдельные маршруты -->
+    <!--    Убираем боковое FlyoutMenu, остаётся только табовая/маршрутная навигация -->
+
+    <!-- === Landing page (главный «экраны выбора») === -->
     <ShellContent
-      Route="LandingPage"
+      Title="Landing"
       ContentTemplate="{DataTemplate views:LandingPage}"
-      IsVisible="False" />
+      Route="Landing" />
 
-    <!-- LoginPage -->
+    <!-- === СТУДЕНТ === -->
     <ShellContent
-      Route="LoginPage"
+      Title="Login"
       ContentTemplate="{DataTemplate views:LoginPage}"
-      IsVisible="False" />
+      Route="Login" />
 
-    <!-- RegistrationPage -->
     <ShellContent
-      Route="RegistrationPage"
+      Title="Registration"
       ContentTemplate="{DataTemplate views:RegistrationPage}"
-      IsVisible="False" />
+      Route="Registration" />
 
-    <!-- SearchPage -->
     <ShellContent
-      Route="SearchPage"
+      Title="Search"
       ContentTemplate="{DataTemplate views:SearchPage}"
-      IsVisible="False" />
+      Route="Search" />
 
-    <!-- 
-    TabBar с видимыми вкладками для «основного» интерфейса.
-    Пока что в примере – только одна вкладка SearchPage. Другие можно добавить позднее.
-  -->
-    <TabBar>
-        <ShellContent
-        Title="Поиск"
-        Icon="icon_search.png"
-        Route="SearchPage"
-        ContentTemplate="{DataTemplate views:SearchPage}" />
-        <!-- позже сюда добавим: FavoritesPage, ApplicationsPage, MessagesPage, ProfilePage -->
-    </TabBar>
+    <ShellContent
+      Title="StudentProfile"
+      ContentTemplate="{DataTemplate views:StudentProfilePage}"
+      Route="StudentProfile" />
+
+    <!-- === КОМПАНИЯ === -->
+    <ShellContent
+      Title="CompanyLogin"
+      ContentTemplate="{DataTemplate views:CompanyLoginPage}"
+      Route="CompanyLogin" />
+
+    <ShellContent
+      Title="CompanyRegistration"
+      ContentTemplate="{DataTemplate views:CompanyRegistrationPage}"
+      Route="CompanyRegistration" />
+
+    <ShellContent
+      Title="CreateInternship"
+      ContentTemplate="{DataTemplate views:CreateInternshipPage}"
+      Route="CreateInternship" />
+
+    <ShellContent
+      Title="CompanyProfile"
+      ContentTemplate="{DataTemplate views:CompanyProfilePage}"
+      Route="CompanyProfile" />
+
 </Shell>

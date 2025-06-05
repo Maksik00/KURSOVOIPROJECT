@@ -11,27 +11,31 @@ namespace KURSOVOIproject
         {
             InitializeComponent();
 
-            // Явная (дублирующая) регистрация маршрутов (не обязательна,
-            // но гарантирует, что Shell «знает» про LandingPage и т. д.)
-            Routing.RegisterRoute("LandingPage", typeof(LandingPage));
-            Routing.RegisterRoute("LoginPage", typeof(LoginPage));
-            Routing.RegisterRoute("RegistrationPage", typeof(RegistrationPage));
-            Routing.RegisterRoute("SearchPage", typeof(SearchPage));
+            // Регистрируем маршруты, чтобы Shell точно знал про все Page’ы
+            Routing.RegisterRoute("Landing", typeof(LandingPage));
+            Routing.RegisterRoute("Login", typeof(LoginPage));
+            Routing.RegisterRoute("Registration", typeof(RegistrationPage));
+            Routing.RegisterRoute("Search", typeof(SearchPage));
+            Routing.RegisterRoute("StudentProfile", typeof(StudentProfilePage));
 
-            // Подписываемся на событие Appearing у Shell
+            Routing.RegisterRoute("CompanyLogin", typeof(CompanyLoginPage));
+            Routing.RegisterRoute("CompanyRegistration", typeof(CompanyRegistrationPage));
+            Routing.RegisterRoute("CreateInternship", typeof(CreateInternshipPage));
+            Routing.RegisterRoute("CompanyProfile", typeof(CompanyProfilePage));
+
+            // Подписываемся один раз на запуск Shell → сразу показываем Landing
             this.Appearing += AppShell_Appearing;
         }
 
         private async void AppShell_Appearing(object sender, System.EventArgs e)
         {
-            // Выполняем переход на LandingPage только ПРИ ПЕРВОМ ОТОБРАЖЕНИИ Shell
             if (_hasFirstAppeared)
                 return;
 
             _hasFirstAppeared = true;
 
-            // Абсолютная навигация: сбрасываем стек и открываем LandingPage как корень
-            await Shell.Current.GoToAsync("LandingPage");
+            // Абсолютная навигация: сбрасываем стек и открываем Landing как корень
+            await Shell.Current.GoToAsync("//Landing");
         }
     }
 }

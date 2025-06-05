@@ -1,10 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using KURSOVOIproject.Data;
+﻿using System.IO;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Hosting;
 using Microsoft.Maui.Storage;
-using System.IO;
+using KURSOVOIproject.Data;
 using KURSOVOIproject.Services;
 using KURSOVOIproject.ViewModels;
 using KURSOVOIproject.Views;
@@ -17,49 +17,57 @@ namespace KURSOVOIproject
         {
             var builder = MauiApp.CreateBuilder();
 
-            // 1) Указываем MAUI, что App – это наше приложение
+            // 1) Указываем, что App – это главная точка входа
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    // Регистрация шрифтов (опционально)
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            // 2) Настраиваем путь к SQLite базе (копируется в AppDataDirectory)
+            // 2) Подключаем SQLite (SflDbContext)
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "sfl.db");
             builder.Services.AddDbContext<SflDbContext>(options =>
                 options.UseSqlite($"Filename={dbPath}"));
 
-            // 3) Регистрируем сервисы (репозитории)
+            // 3) Регистрируем сервисы (DAOs / репозитории)
             builder.Services.AddScoped<IStudentService, StudentService>();
             builder.Services.AddScoped<ISpecializationService, SpecializationService>();
-            // (другие сервисы добавим позже по мере необходимости)
+            builder.Services.AddScoped<ICompanyService, CompanyService>();
+            builder.Services.AddScoped<IInternshipService, InternshipService>();
+            builder.Services.AddScoped<IApplicationService, ApplicationService>();
 
-            // 4) Регистрируем все ViewModel и Pages через DI:
-
-            // → Начальный экран (LandingPage)
-            builder.Services.AddTransient<LandingPage>();
-
-            // → Экран входа
+            // 4) Регистрируем ViewModel-ы
             builder.Services.AddTransient<LoginViewModel>();
-            builder.Services.AddTransient<LoginPage>();
-
-            // → Экран регистрации
             builder.Services.AddTransient<RegistrationViewModel>();
-            builder.Services.AddTransient<RegistrationPage>();
+            builder.Services.AddTransient<SearchPageViewModel>();
+            builder.Services.AddTransient<StudentProfileViewModel>();
+            builder.Services.AddTransient<CompanyProfileViewModel>();
 
-            // → Заглушка для SearchPage (чтобы Login мог на неё перейти)
+            // 5) Регистрируем все View (Pages). Порядок неважен, главное, чтобы названия совпадали:
+            builder.Services.AddTransient<LandingPage>();
+            builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddTransient<RegistrationPage>();
             builder.Services.AddTransient<SearchPage>();
+            builder.Services.AddTransient<StudentProfilePage>();
+
+            builder.Services.AddTransient<CompanyLoginPage>();
+            builder.Services.AddTransient<CompanyRegistrationPage>();
+            builder.Services.AddTransient<CreateInternshipPage>();
+            builder.Services.AddTransient<CompanyProfilePage>();
+
+            // 6) Регистрируем конвертер (например, BoolToHeartIconConverter) – 
+            //    чтобы его можно было использовать через {StaticResource ...}
+            builder.Services.AddSingleton<Converters.BoolToHeartIconConverter>();
 
             var app = builder.Build();
 
-            // 5) При первом запуске создаём базу (Таблицы)
+            // 7) При первом запуске создаём (или применяем миграции) к SQLite
             using (var scope = app.Services.CreateScope())
             {
-                var db = scope.ServiceProvider.GetRequiredService<SflDbContext>();
-                db.Database.EnsureCreated();
+                var dbContext = scope.ServiceProvider.GetRequiredService<SflDbContext>();
+                dbContext.Database.Migrate();
             }
 
             return app;

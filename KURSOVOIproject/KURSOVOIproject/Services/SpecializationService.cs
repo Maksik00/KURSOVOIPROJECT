@@ -23,7 +23,7 @@ namespace KURSOVOIproject.Services
 
         public async Task AddAsync(Specialization specialization)
         {
-            _db.Specializations.Add(specialization);
+            await _db.Specializations.AddAsync(specialization);
             await _db.SaveChangesAsync();
         }
 

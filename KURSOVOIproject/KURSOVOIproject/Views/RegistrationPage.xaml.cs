@@ -1,6 +1,8 @@
 using Microsoft.Maui.Controls;
 using KURSOVOIproject.Services;
 using KURSOVOIproject.Models;
+using Microsoft.Maui.Storage;
+using KURSOVOIproject.Models; // Для Specialization
 using System.Collections.Generic;
 
 namespace KURSOVOIproject.Views
@@ -9,7 +11,7 @@ namespace KURSOVOIproject.Views
     {
         private readonly IStudentService _studentService;
         private readonly ISpecializationService _specService;
-        private List<Specialization> _allSpecs;
+        private List<Specialization> _allSpecs = new();
 
         public RegistrationPage(
             IStudentService studentService,
@@ -24,7 +26,7 @@ namespace KURSOVOIproject.Views
         {
             base.OnAppearing();
 
-            // Загружаем список специализаций
+            // Загрузить список специальностей
             _allSpecs = await _specService.GetAllAsync();
             SpecPicker.ItemsSource = _allSpecs;
             SpecPicker.ItemDisplayBinding = new Binding("Name");
@@ -32,29 +34,29 @@ namespace KURSOVOIproject.Views
 
         private async void OnRegisterButtonClicked(object sender, System.EventArgs e)
         {
-            string name = NameEntry.Text?.Trim();
-            string phone = PhoneEntry.Text?.Trim();
-            string courseText = CourseEntry.Text?.Trim();
-            string password = PasswordEntry.Text?.Trim();
+            string name = NameEntry.Text?.Trim() ?? "";
+            string phone = PhoneEntry.Text?.Trim() ?? "";
+            string courseText = CourseEntry.Text?.Trim() ?? "";
+            string password = PasswordEntry.Text?.Trim() ?? "";
             var selectedSpec = SpecPicker.SelectedItem as Specialization;
 
-            if (string.IsNullOrWhiteSpace(name)
-             || string.IsNullOrWhiteSpace(phone)
-             || string.IsNullOrWhiteSpace(courseText)
-             || selectedSpec == null
-             || string.IsNullOrWhiteSpace(password))
+            if (string.IsNullOrEmpty(name) ||
+                string.IsNullOrEmpty(phone) ||
+                string.IsNullOrEmpty(courseText) ||
+                string.IsNullOrEmpty(password) ||
+                selectedSpec == null)
             {
                 await DisplayAlert("Ошибка", "Заполните все поля", "OK");
                 return;
             }
 
-            if (!int.TryParse(courseText, out int course))
+            if (!int.TryParse(courseText, out int course) || course <= 0)
             {
-                await DisplayAlert("Ошибка", "Курс должен быть числом", "OK");
+                await DisplayAlert("Ошибка", "Курс должен быть положительным числом", "OK");
                 return;
             }
 
-            var student = new Student
+            var newStudent = new Student
             {
                 Name = name,
                 TelNumber = phone,
@@ -63,18 +65,17 @@ namespace KURSOVOIproject.Views
                 Password = password
             };
 
-            try
-            {
-                await _studentService.AddAsync(student);
-                await DisplayAlert("Успех", "Регистрация прошла успешно", "OK");
+            await _studentService.CreateAsync(newStudent);
 
-                // После регистрации переходим на LoginPage
-                await Shell.Current.GoToAsync("LoginPage");
-            }
-            catch (System.Exception ex)
-            {
-                await DisplayAlert("Ошибка", ex.Message, "OK");
-            }
+            Preferences.Default.Set("CurrentStudentId", newStudent.Id);
+            Preferences.Default.Set("IsStudentLoggedIn", true);
+
+            await Shell.Current.GoToAsync("//Search");
+        }
+
+        private async void OnLoginTapped(object sender, System.EventArgs e)
+        {
+            await Shell.Current.GoToAsync("//Login");
         }
     }
 }

@@ -13,6 +13,7 @@ namespace KURSOVOIproject.Services
         private readonly SflDbContext _db;
         public InternshipService(SflDbContext db) => _db = db;
 
+        // Реализация старого метода с фильтрами
         public async Task<List<Internship>> GetAllAsync(
             string? field = null,
             string? location = null,
@@ -43,7 +44,7 @@ namespace KURSOVOIproject.Services
 
         public async Task AddAsync(Internship internship)
         {
-            _db.Internships.Add(internship);
+            await _db.Internships.AddAsync(internship);
             await _db.SaveChangesAsync();
         }
 
@@ -61,6 +62,24 @@ namespace KURSOVOIproject.Services
                 _db.Internships.Remove(ent);
                 await _db.SaveChangesAsync();
             }
+        }
+
+        // -------------- Реализация дополнительных методов для SearchPage --------------
+
+        public async Task<List<Internship>> GetAllWithCompaniesAsync() =>
+            await _db.Internships
+                     .Include(i => i.Company)
+                     .ToListAsync();
+
+        public async Task<List<Internship>> SearchByTitleAsync(string title)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                return new List<Internship>();
+
+            return await _db.Internships
+                    .Include(i => i.Company)
+                    .Where(i => i.Title.Contains(title))
+                    .ToListAsync();
         }
     }
 }

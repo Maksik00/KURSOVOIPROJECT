@@ -10,6 +10,7 @@ namespace KURSOVOIproject.Services
     public class StudentService : IStudentService
     {
         private readonly SflDbContext _db;
+
         public StudentService(SflDbContext db) => _db = db;
 
         public async Task<List<Student>> GetAllAsync() =>
@@ -22,16 +23,24 @@ namespace KURSOVOIproject.Services
                      .Include(s => s.Specialization)
                      .SingleOrDefaultAsync(s => s.Id == id);
 
-        // ← Новая реализация
-        public async Task<Student> GetByPhoneAndPasswordAsync(string phone, string password)
+        // ← Исправлено: возвращаем Student? вместо Student
+        public async Task<Student?> GetByPhoneAndPasswordAsync(string phone, string password)
         {
-            // Заменили SingleOrDefaultAsync на FirstOrDefaultAsync
+            if (string.IsNullOrWhiteSpace(phone) || string.IsNullOrWhiteSpace(password))
+                return null;
+
             return await _db.Students
+                .Include(s => s.Specialization)
                 .Where(s => s.TelNumber == phone && s.Password == password)
                 .FirstOrDefaultAsync();
         }
 
         public async Task AddAsync(Student student)
+        {
+            await _db.Students.AddAsync(student);
+            await _db.SaveChangesAsync();
+        }
+        public async Task CreateAsync(Student student)
         {
             _db.Students.Add(student);
             await _db.SaveChangesAsync();

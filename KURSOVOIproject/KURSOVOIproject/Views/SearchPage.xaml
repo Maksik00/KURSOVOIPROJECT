@@ -4,11 +4,159 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="Поиск"
-    BackgroundColor="Black">
+    BackgroundColor="Black"
+    Padding="10">
 
-    <Label
-    Text="Здесь будет SearchPage (экран поиска)"
-    TextColor="White"
-    VerticalOptions="Center"
-    HorizontalOptions="Center" />
+    <Grid RowDefinitions="Auto,Auto,*,Auto"
+          ColumnDefinitions="*,Auto,Auto">
+
+        <!-- 1) Entry для поиска (Hinted search text) -->
+        <Entry
+            x:Name="SearchEntry"
+            Placeholder="Найти стажировку"
+            PlaceholderColor="#888888"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            HeightRequest="44"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Margin="0,0,10,10" />
+
+        <!-- 2) Кнопка поиска -->
+        <ImageButton
+            Source="search.png"
+            BackgroundColor="Transparent"
+            WidthRequest="44"
+            HeightRequest="44"
+            Grid.Row="0"
+            Grid.Column="2"
+            Clicked="OnSearchButtonClicked" />
+
+        <!-- 3) Фильтры (например, кнопки “Для вас” и “Стажировка”) -->
+        <HorizontalStackLayout
+            Spacing="10"
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="0,0,0,10">
+            <Button
+                Text="Для вас"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="36"
+                Clicked="OnFilterForYouClicked" />
+            <Button
+                Text="Стажировка"
+                BackgroundColor="#1E1E1E"
+                BorderColor="#007AFF"
+                TextColor="#007AFF"
+                CornerRadius="8"
+                HeightRequest="36"
+                Clicked="OnFilterInternshipClicked" />
+        </HorizontalStackLayout>
+
+        <!-- 4) CollectionView для вывода списка стажировок -->
+        <CollectionView
+            x:Name="InternshipsCollection"
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            ItemsLayout="VerticalList"
+            SelectionMode="None"
+            BackgroundColor="Transparent">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame
+                        BackgroundColor="#1E1E1E"
+                        CornerRadius="12"
+                        Padding="15"
+                        Margin="0,0,0,10"
+                        HasShadow="False">
+                        <VerticalStackLayout Spacing="8">
+                            <Label
+                                Text="{Binding Title}"
+                                TextColor="White"
+                                FontSize="18"
+                                FontAttributes="Bold" />
+                            <Label
+                                Text="{Binding Company.Name}"
+                                TextColor="#BBBBBB"
+                                FontSize="14" />
+                            <Label
+                                Text="{Binding Requirements}"
+                                TextColor="White"
+                                FontSize="14"
+                                LineBreakMode="TailTruncation"
+                                MaxLines="2" />
+                            <Button
+                                Text="Сохранить"
+                                BackgroundColor="#007AFF"
+                                TextColor="White"
+                                CornerRadius="8"
+                                HeightRequest="36"
+                                Clicked="OnSaveInternshipClicked" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- 5) Навигационная панель снизу (Search / Favorites / Responses / Messages / Profile) -->
+        <Grid
+            Grid.Row="3"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            BackgroundColor="#1E1E1E"
+            HeightRequest="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Search (текущий активный) -->
+            <Button
+                Text="Поиск"
+                TextColor="#007AFF"
+                BackgroundColor="Transparent"
+                Clicked="OnNavSearchClicked" />
+
+            <!-- Favorites -->
+            <Button
+                Grid.Column="1"
+                Text="Избранное"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                Clicked="OnNavFavoritesClicked" />
+
+            <!-- Responses -->
+            <Button
+                Grid.Column="2"
+                Text="Отклики"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                Clicked="OnNavResponsesClicked" />
+
+            <!-- Messages -->
+            <Button
+                Grid.Column="3"
+                Text="Сообщения"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                Clicked="OnNavMessagesClicked" />
+
+            <!-- Profile -->
+            <Button
+                Grid.Column="4"
+                Text="Профиль"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                Clicked="OnNavProfileClicked" />
+
+        </Grid>
+    </Grid>
 </ContentPage>

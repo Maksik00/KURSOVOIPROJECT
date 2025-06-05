@@ -1,10 +1,13 @@
-﻿namespace KURSOVOIproject.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace KURSOVOIproject.Models
 {
     public class Specialization
     {
         public int Id { get; set; }
 
-        private string _name = default!;
+        private string _name = string.Empty;
         public string Name
         {
             get => _name;
@@ -12,11 +15,10 @@
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Название специализации обязательно.");
-                _name = value;
+                _name = value.Trim();
             }
         }
 
-        // ← коллекция студентов
         public ICollection<Student> Students { get; set; } = new List<Student>();
     }
 }

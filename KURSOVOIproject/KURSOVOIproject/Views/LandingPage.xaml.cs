@@ -9,16 +9,30 @@ namespace KURSOVOIproject.Views
             InitializeComponent();
         }
 
-        private async void OnRegisterButtonClicked(object sender, System.EventArgs e)
+        // -------------- Обработчики кнопок для студентов --------------
+        private async void OnStudentRegisterClicked(object sender, EventArgs e)
         {
-            // Переход на RegistrationPage (RegistrationPage уже зарегистрирован в Shell)
-            await Shell.Current.GoToAsync("RegistrationPage");
+            // Навигируем на страницу регистрации студента
+            await Shell.Current.GoToAsync("StudentRegistration");
         }
 
-        private async void OnLoginButtonClicked(object sender, System.EventArgs e)
+        private async void OnStudentLoginClicked(object sender, EventArgs e)
         {
-            // Переход на LoginPage
-            await Shell.Current.GoToAsync("LoginPage");
+            // Навигируем на страницу входа студента
+            await Shell.Current.GoToAsync("StudentLogin");
+        }
+
+        // -------------- Обработчики кнопок для компаний --------------
+        private async void OnCompanyRegisterClicked(object sender, EventArgs e)
+        {
+            // Навигируем на страницу регистрации компании
+            await Shell.Current.GoToAsync("CompanyRegistration");
+        }
+
+        private async void OnCompanyLoginClicked(object sender, EventArgs e)
+        {
+            // Навигируем на страницу входа компании
+            await Shell.Current.GoToAsync("CompanyLogin");
         }
     }
 }
