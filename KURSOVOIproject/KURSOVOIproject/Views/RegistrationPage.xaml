@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.RegistrationPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Регистрация"
+    BackgroundColor="Black"
+    Padding="20">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <!-- Заголовок -->
+            <Label
+                Text="Регистрация"
+                TextColor="White"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <!-- Поле: Имя -->
+            <Label
+                Text="Имя"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="NameEntry"
+                Placeholder="Введите имя"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44" />
+
+            <!-- Поле: Телефон -->
+            <Label
+                Text="Телефон"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="PhoneEntry"
+                Placeholder="Введите телефон"
+                Keyboard="Telephone"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44" />
+
+            <!-- Поле: Курс -->
+            <Label
+                Text="Курс"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="CourseEntry"
+                Placeholder="Введите курс (цифрой)"
+                Keyboard="Numeric"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44" />
+
+            <!-- Поле: Пароль -->
+            <Label
+                Text="Пароль"
+                TextColor="White"
+                FontSize="16" />
+            <Entry
+                x:Name="PasswordEntry"
+                Placeholder="Введите пароль"
+                IsPassword="True"
+                TextColor="White"
+                PlaceholderColor="#888888"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44" />
+
+            <!-- Поле: Специальность -->
+            <Label
+                Text="Специальность"
+                TextColor="White"
+                FontSize="16" />
+            <Picker
+                x:Name="SpecPicker"
+                Title="Выберите специальность"
+                TextColor="White"
+                BackgroundColor="#1E1E1E"
+                HeightRequest="44" />
+
+            <!-- Кнопка: Зарегистрироваться -->
+            <Button
+                Text="Зарегистрироваться"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="45"
+                Clicked="OnRegisterButtonClicked" />
+
+            <!-- Ссылка: Уже есть аккаунт? Войти -->
+            <Label
+                Text="Уже есть аккаунт? Войти"
+                TextColor="#007AFF"
+                HorizontalOptions="Center"
+                FontAttributes="Bold">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLoginTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

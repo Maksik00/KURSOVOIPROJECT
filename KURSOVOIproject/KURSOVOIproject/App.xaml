@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="KURSOVOIproject.App"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+        <!-- 
+      Здесь ваши ресурсы (стили, цвета, шрифты), 
+      конвертеры регистрируются в AppShell.xaml.
+    -->
+    </Application.Resources>
+</Application>

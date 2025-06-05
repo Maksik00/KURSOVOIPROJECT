@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="KURSOVOIproject.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:KURSOVOIproject.Views"
+    xmlns:converters="clr-namespace:KURSOVOIproject.Converters"
+    Title="SFL">
+
+    <!-- 1) Общие ресурсы Shell: в том числе конвертеры -->
+    <Shell.Resources>
+        <ResourceDictionary>
+            <!-- Конвертер из bool → имя иконки Heart (используется в SearchPage) -->
+            <converters:BoolToHeartIconConverter x:Key="BoolToHeartIconConverter" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <!-- 2) Регистрируем видимые ContentPage как отдельные маршруты -->
+    <!--    Убираем боковое FlyoutMenu, остаётся только табовая/маршрутная навигация -->
+
+    <!-- === Landing page (главный «экраны выбора») === -->
+    <ShellContent
+      Title="Landing"
+      ContentTemplate="{DataTemplate views:LandingPage}"
+      Route="Landing" />
+
+    <!-- === СТУДЕНТ === -->
+    <ShellContent
+      Title="Login"
+      ContentTemplate="{DataTemplate views:LoginPage}"
+      Route="Login" />
+
+    <ShellContent
+      Title="Registration"
+      ContentTemplate="{DataTemplate views:RegistrationPage}"
+      Route="Registration" />
+
+    <ShellContent
+      Title="Search"
+      ContentTemplate="{DataTemplate views:SearchPage}"
+      Route="Search" />
+
+    <ShellContent
+      Title="StudentProfile"
+      ContentTemplate="{DataTemplate views:StudentProfilePage}"
+      Route="StudentProfile" />
+
+    <!-- === КОМПАНИЯ === -->
+    <ShellContent
+      Title="CompanyLogin"
+      ContentTemplate="{DataTemplate views:CompanyLoginPage}"
+      Route="CompanyLogin" />
+
+    <ShellContent
+      Title="CompanyRegistration"
+      ContentTemplate="{DataTemplate views:CompanyRegistrationPage}"
+      Route="CompanyRegistration" />
+
+    <ShellContent
+      Title="CreateInternship"
+      ContentTemplate="{DataTemplate views:CreateInternshipPage}"
+      Route="CreateInternship" />
+
+    <ShellContent
+      Title="CompanyProfile"
+      ContentTemplate="{DataTemplate views:CompanyProfilePage}"
+      Route="CompanyProfile" />
+
+</Shell>
