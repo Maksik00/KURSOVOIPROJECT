@@ -37,13 +37,13 @@ namespace KURSOVOIproject.ViewModels
                 IsBusy = true;
                 Responses.Clear();
 
-                // TODO: Получить текущего студента из Preferences
+                // TODO completed: Получаем id текущего студента из Preferences
                 int studentId = Preferences.Default.Get("CurrentStudentId", 0);
                 if (studentId == 0)
                     return;
 
-                // TODO: Сервис должен вернуть список ApplicationEntity для данного студента
-                var list = await _applicationService.GetByStudentIdAsync(studentId);
+                // TODO completed: получаем отклики студента через сервис
+                var list = await _applicationService.GetByStudentAsync(studentId);
 
                 foreach (var resp in list)
                     Responses.Add(resp);
