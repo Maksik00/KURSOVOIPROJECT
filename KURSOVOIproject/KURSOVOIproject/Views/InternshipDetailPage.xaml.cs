@@ -1,21 +1,16 @@
 using System;
 using Microsoft.Maui.Controls;
-using KURSOVOIproject.Services;
 using KURSOVOIproject.ViewModels;
 
 namespace KURSOVOIproject.Views
 {
     public partial class InternshipDetailPage : ContentPage
     {
-        private readonly IApplicationService _applicationService;
         private readonly InternshipDetailViewModel _viewModel;
 
-        public InternshipDetailPage(
-            IApplicationService applicationService,
-            InternshipDetailViewModel viewModel)
+        public InternshipDetailPage(InternshipDetailViewModel viewModel)
         {
             InitializeComponent();
-            _applicationService = applicationService;
             _viewModel = viewModel;
             BindingContext = _viewModel;
         }
@@ -23,15 +18,17 @@ namespace KURSOVOIproject.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            // TODO: вызвать _viewModel.LoadDetailsAsync() (грузим детали стажировки по Id)
+            // TODO completed: Р·Р°РіСЂСѓР·РєР° РґРµС‚Р°Р»РµР№
+            _viewModel.LoadDetailsCommand.Execute(null);
         }
 
         private async void OnApplyClicked(object sender, EventArgs e)
         {
-            // TODO: если пользователь ещё не откликался, вызвать 
-            // await _viewModel.ApplyToInternshipAsync(); 
-            // иначе вызвать 
-            // await _viewModel.RevokeApplicationAsync();
+            // TODO completed: РѕС‚РєР»РёРє РёР»Рё РѕС‚Р·С‹РІ
+            if (!_viewModel.IsApplied)
+                await _viewModel.ApplyCommand.ExecuteAsync(null);
+            else
+                await _viewModel.RevokeCommand.ExecuteAsync(null);
         }
     }
 }

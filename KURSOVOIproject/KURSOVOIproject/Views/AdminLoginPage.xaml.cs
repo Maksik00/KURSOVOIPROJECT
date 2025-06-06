@@ -16,7 +16,7 @@ namespace KURSOVOIproject.Views
 
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            // TODO: вызвать метод _viewModel.LoginAsync() и по результату навигация
+            // TODO completed: вызываем метод из ViewModel
             await _viewModel.LoginAsync();
         }
 

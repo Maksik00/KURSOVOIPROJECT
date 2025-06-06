@@ -16,7 +16,8 @@ namespace KURSOVOIproject.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            // TODO: _viewModel.LoadUsersCommand.Execute(null);
+            // TODO completed: загружаем список пользователей
+            await _viewModel.LoadUsersCommand.ExecuteAsync(null);
         }
     }
 }

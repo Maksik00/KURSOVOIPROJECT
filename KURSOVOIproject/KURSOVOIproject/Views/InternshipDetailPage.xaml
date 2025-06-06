@@ -38,14 +38,19 @@
              TextColor="White" />
 
             <!-- Кнопка «Откликнуться» (для студента) -->
-            <Button Text="Откликнуться"
+            <Button x:Name="ApplyButton"
+              Text="Откликнуться"
               BackgroundColor="#0066FF"
               TextColor="White"
               CornerRadius="10"
               Margin="0,20,0,0"
-              Clicked="OnApplyClicked" />
-
-            <!-- TODO: Если студент уже откликался, кнопка меняет текст на «Отозвать отклик» -->
+              Clicked="OnApplyClicked">
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button" Binding="{Binding IsApplied}" Value="True">
+                        <Setter Property="Text" Value="Отозвать отклик" />
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
         </StackLayout>
     </ScrollView>
 </ContentPage>
