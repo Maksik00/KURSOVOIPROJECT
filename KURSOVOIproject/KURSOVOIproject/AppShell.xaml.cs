@@ -1,41 +1,35 @@
-﻿using Microsoft.Maui.Controls;
-using KURSOVOIproject.Views;
+﻿using System;
+using Microsoft.Maui.Controls;
 
 namespace KURSOVOIproject
 {
     public partial class AppShell : Shell
     {
-        private bool _hasFirstAppeared = false;
-
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute("Landing", typeof(Views.LandingPage));
 
-            // Регистрируем маршруты, чтобы Shell точно знал про все Page’ы
-            Routing.RegisterRoute("Landing", typeof(LandingPage));
-            Routing.RegisterRoute("Login", typeof(LoginPage));
-            Routing.RegisterRoute("Registration", typeof(RegistrationPage));
-            Routing.RegisterRoute("Search", typeof(SearchPage));
-            Routing.RegisterRoute("StudentProfile", typeof(StudentProfilePage));
+            // Студент
+            Routing.RegisterRoute("Login", typeof(Views.LoginPage));
+            Routing.RegisterRoute("Registration", typeof(Views.RegistrationPage));
+            Routing.RegisterRoute("Search", typeof(Views.SearchPage));
+            Routing.RegisterRoute("StudentProfile", typeof(Views.StudentProfilePage));
 
-            Routing.RegisterRoute("CompanyLogin", typeof(CompanyLoginPage));
-            Routing.RegisterRoute("CompanyRegistration", typeof(CompanyRegistrationPage));
-            Routing.RegisterRoute("CreateInternship", typeof(CreateInternshipPage));
-            Routing.RegisterRoute("CompanyProfile", typeof(CompanyProfilePage));
+            // Компания
+            Routing.RegisterRoute("CompanyLogin", typeof(Views.CompanyLoginPage));
+            Routing.RegisterRoute("CompanyRegistration", typeof(Views.CompanyRegistrationPage));
+            Routing.RegisterRoute("CompanyProfile", typeof(Views.CompanyProfilePage));
+            Routing.RegisterRoute("CreateInternship", typeof(Views.CreateInternshipPage));
 
-            // Подписываемся один раз на запуск Shell → сразу показываем Landing
-            this.Appearing += AppShell_Appearing;
-        }
-
-        private async void AppShell_Appearing(object sender, System.EventArgs e)
-        {
-            if (_hasFirstAppeared)
-                return;
-
-            _hasFirstAppeared = true;
-
-            // Абсолютная навигация: сбрасываем стек и открываем Landing как корень
-            await Shell.Current.GoToAsync("//Landing");
+            // Администратор
+            Routing.RegisterRoute("AdminLogin", typeof(Views.AdminLoginPage));
+            Routing.RegisterRoute("Admin", typeof(Views.AdminPage));
+            Routing.RegisterRoute("Statistics", typeof(Views.StatisticsPage));
+            Routing.RegisterRoute("UsersList", typeof(Views.UsersListPage));
+            Routing.RegisterRoute("AllInternships", typeof(Views.AllInternshipsPage));
+            Routing.RegisterRoute("Responses", typeof(Views.ResponsesPage));
+            Routing.RegisterRoute("Help", typeof(Views.HelpPage));
         }
     }
 }

@@ -4,66 +4,33 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:KURSOVOIproject.Views"
-    xmlns:converters="clr-namespace:KURSOVOIproject.Converters"
     Title="SFL">
 
-    <!-- 1) Общие ресурсы Shell: в том числе конвертеры -->
-    <Shell.Resources>
-        <ResourceDictionary>
-            <!-- Конвертер из bool → имя иконки Heart (используется в SearchPage) -->
-            <converters:BoolToHeartIconConverter x:Key="BoolToHeartIconConverter" />
-        </ResourceDictionary>
-    </Shell.Resources>
+    <!-- flyoutBehavior="Disabled" убирает боковое меню (если нужно) -->
+    <Shell.FlyoutBehavior>Disabled</Shell.FlyoutBehavior>
 
-    <!-- 2) Регистрируем видимые ContentPage как отдельные маршруты -->
-    <!--    Убираем боковое FlyoutMenu, остаётся только табовая/маршрутная навигация -->
+    <!-- Маршруты (registration of routes) -->
+    <ShellContent Route="Landing" Title="Landing" ContentTemplate="{DataTemplate views:LandingPage}" />
 
-    <!-- === Landing page (главный «экраны выбора») === -->
-    <ShellContent
-      Title="Landing"
-      ContentTemplate="{DataTemplate views:LandingPage}"
-      Route="Landing" />
+    <!-- Студентская часть -->
+    <ShellContent Route="Login" Title="StudentLogin" ContentTemplate="{DataTemplate views:LoginPage}" />
+    <ShellContent Route="Registration" Title="StudentRegistration" ContentTemplate="{DataTemplate views:RegistrationPage}" />
+    <ShellContent Route="Search" Title="Search" ContentTemplate="{DataTemplate views:SearchPage}" />
+    <ShellContent Route="StudentProfile" Title="StudentProfile" ContentTemplate="{DataTemplate views:StudentProfilePage}" />
 
-    <!-- === СТУДЕНТ === -->
-    <ShellContent
-      Title="Login"
-      ContentTemplate="{DataTemplate views:LoginPage}"
-      Route="Login" />
+    <!-- Компания -->
+    <ShellContent Route="CompanyLogin" Title="CompanyLogin" ContentTemplate="{DataTemplate views:CompanyLoginPage}" />
+    <ShellContent Route="CompanyRegistration" Title="CompanyRegistration" ContentTemplate="{DataTemplate views:CompanyRegistrationPage}" />
+    <ShellContent Route="CompanyProfile" Title="CompanyProfile" ContentTemplate="{DataTemplate views:CompanyProfilePage}" />
+    <ShellContent Route="CreateInternship" Title="CreateInternship" ContentTemplate="{DataTemplate views:CreateInternshipPage}" />
 
-    <ShellContent
-      Title="Registration"
-      ContentTemplate="{DataTemplate views:RegistrationPage}"
-      Route="Registration" />
-
-    <ShellContent
-      Title="Search"
-      ContentTemplate="{DataTemplate views:SearchPage}"
-      Route="Search" />
-
-    <ShellContent
-      Title="StudentProfile"
-      ContentTemplate="{DataTemplate views:StudentProfilePage}"
-      Route="StudentProfile" />
-
-    <!-- === КОМПАНИЯ === -->
-    <ShellContent
-      Title="CompanyLogin"
-      ContentTemplate="{DataTemplate views:CompanyLoginPage}"
-      Route="CompanyLogin" />
-
-    <ShellContent
-      Title="CompanyRegistration"
-      ContentTemplate="{DataTemplate views:CompanyRegistrationPage}"
-      Route="CompanyRegistration" />
-
-    <ShellContent
-      Title="CreateInternship"
-      ContentTemplate="{DataTemplate views:CreateInternshipPage}"
-      Route="CreateInternship" />
-
-    <ShellContent
-      Title="CompanyProfile"
-      ContentTemplate="{DataTemplate views:CompanyProfilePage}"
-      Route="CompanyProfile" />
+    <!-- Администратор -->
+    <ShellContent Route="AdminLogin" Title="AdminLogin" ContentTemplate="{DataTemplate views:AdminLoginPage}" />
+    <ShellContent Route="Admin" Title="AdminPanel" ContentTemplate="{DataTemplate views:AdminPage}" />
+    <ShellContent Route="Statistics" Title="Statistics" ContentTemplate="{DataTemplate views:StatisticsPage}" />
+    <ShellContent Route="UsersList" Title="UsersList" ContentTemplate="{DataTemplate views:UsersListPage}" />
+    <ShellContent Route="AllInternships" Title="AllInternships" ContentTemplate="{DataTemplate views:AllInternshipsPage}" />
+    <ShellContent Route="Responses" Title="Responses" ContentTemplate="{DataTemplate views:ResponsesPage}" />
+    <ShellContent Route="Help" Title="Help" ContentTemplate="{DataTemplate views:HelpPage}" />
 
 </Shell>

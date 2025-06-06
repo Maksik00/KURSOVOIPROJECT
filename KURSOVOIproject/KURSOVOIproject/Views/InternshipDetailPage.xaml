@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.InternshipDetailPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Детали стажировки">
+
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="15">
+            <!-- Название стажировки -->
+            <Label Text="{Binding Title}"
+             FontAttributes="Bold"
+             FontSize="24"
+             TextColor="White" />
+
+            <!-- Компания и контакт -->
+            <Label Text="Компания:"
+             FontAttributes="Bold"
+             FontSize="18"
+             TextColor="White" />
+            <Label Text="{Binding CompanyName}"
+             TextColor="White" />
+
+            <!-- Описание / Требования -->
+            <Label Text="Требования:"
+             FontAttributes="Bold"
+             FontSize="18"
+             TextColor="White"
+             Margin="0,10,0,0" />
+            <Label Text="{Binding Requirements}"
+             TextColor="White" />
+
+            <!-- Даты -->
+            <Label Text="{Binding StartDate, StringFormat='С {0:dd.MM.yyyy}'}"
+             TextColor="White"
+             Margin="0,10,0,0" />
+            <Label Text="{Binding EndDate, StringFormat='По {0:dd.MM.yyyy}'}"
+             TextColor="White" />
+
+            <!-- Кнопка «Откликнуться» (для студента) -->
+            <Button Text="Откликнуться"
+              BackgroundColor="#0066FF"
+              TextColor="White"
+              CornerRadius="10"
+              Margin="0,20,0,0"
+              Clicked="OnApplyClicked" />
+
+            <!-- TODO: Если студент уже откликался, кнопка меняет текст на «Отозвать отклик» -->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

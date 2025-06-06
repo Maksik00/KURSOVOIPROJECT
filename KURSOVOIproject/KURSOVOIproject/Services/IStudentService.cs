@@ -16,5 +16,6 @@ namespace KURSOVOIproject.Services
         Task CreateAsync(Student student);
         Task UpdateAsync(Student student);
         Task DeleteAsync(int id);
+        // TODO: при необходимости добавить методы для получения откликов студента
     }
 }

@@ -22,5 +22,8 @@ namespace KURSOVOIproject.Services
         // -------------- Добавлено специально для SearchPage --------------
         Task<List<Internship>> GetAllWithCompaniesAsync();
         Task<List<Internship>> SearchByTitleAsync(string title);
+        
+        // TODO: добавить методы для фильтрации/поиска
+
     }
 }

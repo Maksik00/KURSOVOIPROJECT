@@ -57,7 +57,11 @@ namespace KURSOVOIproject.Models
 
         public int IdCompany { get; set; }
         public Company Company { get; set; } = null!;
+        // **Добавляем поле специализации**:
+        public int IdSpecialization { get; set; }
+        public Specialization Specialization { get; set; } = default!;
 
         public ICollection<ApplicationEntity> Applications { get; set; } = new List<ApplicationEntity>();
+        public ICollection<Internship> Internships { get; set; } = new List<Internship>();
     }
 }

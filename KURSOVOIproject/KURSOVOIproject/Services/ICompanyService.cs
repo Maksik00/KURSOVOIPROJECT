@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿// Services/ICompanyService.cs
+
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using KURSOVOIproject.Models;
 
@@ -6,16 +8,18 @@ namespace KURSOVOIproject.Services
 {
     public interface ICompanyService
     {
-        Task<List<Company>> GetAllAsync();
         Task<Company?> GetByIdAsync(int id);
-
-        // Для создания (регистрации) компании
-        Task AddAsync(Company company);
-
-        // Для поиска при входе (по имени + паролю)
         Task<Company?> GetByNameAndPasswordAsync(string name, string password);
+        Task<IEnumerable<Company>> GetAllAsync();
 
+        // TODO: Codex, добавь сюда метод для регистрации новой компании:
+        Task CreateAsync(Company company);
+
+        // TODO: Codex, добавь сюда метод для обновления данных компании:
         Task UpdateAsync(Company company);
+
+        // TODO: Codex, добавь сюда метод для удаления компании по Id:
         Task DeleteAsync(int id);
+        // TODO: можно добавить методы для получения откликов на стажировки компании
     }
 }

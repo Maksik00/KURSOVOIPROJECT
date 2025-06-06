@@ -64,5 +64,6 @@ namespace KURSOVOIproject.Models
         public string SkillsString { get; set; } = string.Empty;
 
         public ICollection<ApplicationEntity> Applications { get; set; } = new List<ApplicationEntity>();
+        // Навигация на отклики:
     }
 }
