@@ -35,7 +35,8 @@ namespace KURSOVOIproject.ViewModels
             {
                 IsBusy = true;
                 Internships.Clear();
-                var list = await _internshipService.GetAllAsync(); // TODO: метод GetAllAsync() уже есть?
+                // TODO completed: получаем список всех стажировок
+                var list = await _internshipService.GetAllAsync();
                 foreach (var i in list)
                 {
                     Internships.Add(i);
@@ -49,7 +50,7 @@ namespace KURSOVOIproject.ViewModels
 
         private async Task DeleteAsync(int internshipId)
         {
-            // TODO: вызвать _internshipService.DeleteAsync(internshipId) и обновить список
+            // TODO completed: вызываем сервис для удаления и перезагружаем список
             await _internshipService.DeleteAsync(internshipId);
             await LoadAllAsync();
         }

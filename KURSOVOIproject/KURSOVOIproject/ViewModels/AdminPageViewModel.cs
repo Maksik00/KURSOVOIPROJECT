@@ -28,19 +28,19 @@ namespace KURSOVOIproject.ViewModels
 
         private async Task NavigateToStatisticsAsync()
         {
-            // TODO: переход на страницу StatisticsPage
+            // TODO completed: переход на страницу StatisticsPage
             await Shell.Current.GoToAsync("//Statistics");
         }
 
         private async Task NavigateToUsersAsync()
         {
-            // TODO: переход на страницу просмотра всех пользователей
+            // TODO completed: переход на страницу просмотра всех пользователей
             await Shell.Current.GoToAsync("//UsersList");
         }
 
         private async Task NavigateToInternshipsAsync()
         {
-            // TODO: переход на страницу просмотра/редактирования всех стажировок
+            // TODO completed: переход на страницу просмотра/редактирования всех стажировок
             await Shell.Current.GoToAsync("//AllInternships");
         }
     }
