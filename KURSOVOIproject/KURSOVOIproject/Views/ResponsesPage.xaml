@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="Мои отклики">
 
+<<<<<<< HEAD
     <StackLayout Padding="10">
         <!-- 1) Сегментированный контрол, который показывает:
          - тикет «Ожидают решения»,
@@ -17,6 +18,19 @@
                     ItemsSource="{Binding Responses}"
                     IsRefreshing="{Binding IsBusy}"
                     Margin="0,20,0,0">
+=======
+    <!-- TODO: добавить SegmentedControl или кнопки для фильтрации по статусу -->
+
+    <!-- Pull-to-refresh -->
+    <RefreshView
+      IsRefreshing="{Binding IsBusy}"
+      Command="{Binding RefreshCommand}">
+
+        <CollectionView
+        x:Name="ResponsesCollection"
+        ItemsSource="{Binding Responses}"
+        Margin="0,20,0,0">
+>>>>>>> 359d440 (InternshipADDING!)
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame
@@ -24,6 +38,7 @@
               Margin="0,5"
               CornerRadius="10"
               BackgroundColor="#1E1E1E">
+<<<<<<< HEAD
                         <Grid RowDefinitions="Auto,Auto,Auto">
                             <!-- Название стажировки -->
                             <Label Text="{Binding InternshipTitle}"
@@ -42,10 +57,39 @@
                       Grid.Row="2"
                       IsEnabled="{Binding Status, Converter={StaticResource StatusToBoolConverter}}"
                       Clicked="OnMessageStudentClicked" />
+=======
+                        <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*">
+                            <!-- Название стажировки -->
+                            <Label
+                  Text="{Binding InternshipTitle}"
+                  FontAttributes="Bold"
+                  TextColor="White" />
+
+                            <!-- Статус отклика -->
+                            <Label
+                  Text="{Binding Status}"
+                  TextColor="{Binding Status, Converter={StaticResource StatusToColorConverter}}"
+                  FontSize="12"
+                  Grid.Row="1"
+                  Margin="0,5,0,0" />
+
+                            <!-- Кнопка «Написать сообщение» -->
+                            <Button
+                  Text="Написать сообщение"
+                  Grid.Row="2"
+                  IsEnabled="{Binding Status, Converter={StaticResource StatusToBoolConverter}}"
+                  Command="{Binding WriteMessageCommand}"
+                  CommandParameter="{Binding .}" />
+>>>>>>> 359d440 (InternshipADDING!)
                         </Grid>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+<<<<<<< HEAD
     </StackLayout>
+=======
+
+    </RefreshView>
+>>>>>>> 359d440 (InternshipADDING!)
 </ContentPage>

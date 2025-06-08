@@ -20,5 +20,7 @@ namespace KURSOVOIproject.Models
         }
 
         public ICollection<Student> Students { get; set; } = new List<Student>();
+        // <<--- вот это добавьте:
+        public ICollection<Internship> Internships { get; set; } = new List<Internship>();
     }
 }

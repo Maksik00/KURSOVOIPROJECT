@@ -51,7 +51,7 @@ namespace KURSOVOIproject.Views
             Preferences.Default.Set("IsCompanyLoggedIn", true);
 
             // Переходим на CompanyProfilePage
-            await Shell.Current.GoToAsync("CompanyProfile");
+            await Shell.Current.GoToAsync("///CompanyProfile");
         }
 
         private async void OnAlreadyHaveAccountClicked(object sender, System.EventArgs e)

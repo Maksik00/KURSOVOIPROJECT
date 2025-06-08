@@ -4,6 +4,7 @@ namespace KURSOVOIproject.Services
 {
     public interface INotificationService
     {
+<<<<<<< HEAD
         // TODO: отправить пуш-уведомление (локальное) пользователю
         Task SendNotificationAsync(int userId, string title, string message);
 
@@ -14,6 +15,14 @@ namespace KURSOVOIproject.Services
         Task ScheduleApplicationStatusNotificationAsync(int applicationId);
 
         // TODO: запланировать уведомление о приглашении на собеседование
+=======
+        Task SendNotificationAsync(int userId, string title, string message);
+
+        Task ScheduleNewInternshipNotificationAsync(int specializationId);
+
+        Task ScheduleApplicationStatusNotificationAsync(int applicationId);
+
+>>>>>>> 359d440 (InternshipADDING!)
         Task ScheduleInterviewInvitationAsync(int applicationId, System.DateTime interviewDate);
     }
 }

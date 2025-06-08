@@ -13,13 +13,13 @@ namespace KURSOVOIproject.Views
         private async void OnStudentRegisterClicked(object sender, EventArgs e)
         {
             // Навигируем на страницу регистрации студента
-            await Shell.Current.GoToAsync("StudentRegistration");
+            await Shell.Current.GoToAsync("Registration");
         }
 
         private async void OnStudentLoginClicked(object sender, EventArgs e)
         {
             // Навигируем на страницу входа студента
-            await Shell.Current.GoToAsync("StudentLogin");
+            await Shell.Current.GoToAsync("Login");
         }
 
         // -------------- Обработчики кнопок для компаний --------------

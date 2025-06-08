@@ -70,7 +70,7 @@ namespace KURSOVOIproject.Views
             Preferences.Default.Set("CurrentStudentId", newStudent.Id);
             Preferences.Default.Set("IsStudentLoggedIn", true);
 
-            await Shell.Current.GoToAsync("//Search");
+            await Shell.Current.GoToAsync("Search");
         }
 
         private async void OnLoginTapped(object sender, System.EventArgs e)

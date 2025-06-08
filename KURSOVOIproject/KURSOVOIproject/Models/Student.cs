@@ -6,6 +6,10 @@ namespace KURSOVOIproject.Models
     public class Student
     {
         public int Id { get; set; }
+        /// <summary>
+        /// Путь к файлу аватарки в локальном хранилище
+        /// </summary>
+        public string AvatarPath { get; set; } = string.Empty;
 
         private string _name = string.Empty;
         public string Name

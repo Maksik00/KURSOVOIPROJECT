@@ -12,10 +12,14 @@ namespace KURSOVOIproject.Services
         Task<Company?> GetByNameAndPasswordAsync(string name, string password);
         Task<IEnumerable<Company>> GetAllAsync();
 
+<<<<<<< HEAD
         // TODO: Codex, добавь сюда метод для регистрации новой компании:
         Task CreateAsync(Company company);
 
         // TODO: Codex, добавь сюда метод для обновления данных компании:
+=======
+        Task CreateAsync(Company company);
+>>>>>>> 359d440 (InternshipADDING!)
         Task UpdateAsync(Company company);
 
         // TODO: Codex, добавь сюда метод для удаления компании по Id:

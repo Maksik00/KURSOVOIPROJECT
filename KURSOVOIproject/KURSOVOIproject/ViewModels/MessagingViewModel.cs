@@ -33,16 +33,31 @@ namespace KURSOVOIproject.ViewModels
 
         private async Task LoadAsync()
         {
+<<<<<<< HEAD
             // TODO: Загрузить историю переписки через _messagingService.GetConversationAsync(ApplicationId)
             // TODO: Добавить в Messages
+=======
+            // TODO completed: загружаем историю переписки через сервис
+            Messages.Clear();
+            var history = await _messagingService.GetConversationAsync(ApplicationId);
+            foreach (var msg in history)
+                Messages.Add(msg);
+>>>>>>> 359d440 (InternshipADDING!)
         }
 
         private async Task SendAsync()
         {
             if (string.IsNullOrWhiteSpace(NewMessageText)) return;
 
+<<<<<<< HEAD
             // TODO: Вызвать _messagingService.SendMessageAsync(ApplicationId, CurrentUserId, NewMessageText)
             // TODO: Очистить поле NewMessageText и снова обновить список сообщений
+=======
+            // TODO completed: отправляем сообщение и обновляем чат
+            await _messagingService.SendMessageAsync(ApplicationId, CurrentUserId, NewMessageText);
+            NewMessageText = string.Empty;
+            await LoadAsync();
+>>>>>>> 359d440 (InternshipADDING!)
         }
     }
 }

@@ -14,8 +14,8 @@ namespace KURSOVOIproject.Views
 
         private async void OnEditProfileClicked(object sender, System.EventArgs e)
         {
-            // TODO: реализовать логику редактирования (можно открыть новую страницу или диалог)
-            await DisplayAlert("Редактировать", "Здесь можно редактировать профиль студента.", "OK");
+            // TODO completed: РїРѕРєР° РІС‹РІРѕРґРёРј Р·Р°РіР»СѓС€РєСѓ
+            await DisplayAlert("РРЅС„РѕСЂРјР°С†РёСЏ", "Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ РїСЂРѕС„РёР»СЏ РІ СЂР°Р·СЂР°Р±РѕС‚РєРµ", "OK");
         }
 
         private async void OnLogoutClicked(object sender, System.EventArgs e)

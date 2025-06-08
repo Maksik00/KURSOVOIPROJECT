@@ -51,12 +51,12 @@ namespace KURSOVOIproject.Views
             Preferences.Default.Set("IsStudentLoggedIn", true);
 
             // Переходим на SearchPage (экран поиска)
-            await Shell.Current.GoToAsync("//Search");
+            await Shell.Current.GoToAsync("Search");
         }
 
         private async void OnRegisterTapped(object sender, System.EventArgs e)
         {
-            await Shell.Current.GoToAsync("//Registration");
+            await Shell.Current.GoToAsync("Registration");
         }
     }
 }

@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 ﻿using System;
 using Microsoft.Maui.Controls;
+=======
+﻿using Microsoft.Maui.Controls;
+>>>>>>> 359d440 (InternshipADDING!)
 using KURSOVOIproject.ViewModels;
 
 namespace KURSOVOIproject.Views
 {
+<<<<<<< HEAD
+=======
+    // Имя класса и базовый тип должны совпадать с XAML (ContentPage)
+>>>>>>> 359d440 (InternshipADDING!)
     public partial class AdminLoginPage : ContentPage
     {
         private readonly AdminLoginViewModel _viewModel;
@@ -11,6 +19,7 @@ namespace KURSOVOIproject.Views
         public AdminLoginPage(AdminLoginViewModel viewModel)
         {
             InitializeComponent();
+<<<<<<< HEAD
             BindingContext = _viewModel = viewModel;
         }
 
@@ -25,5 +34,13 @@ namespace KURSOVOIproject.Views
             // TODO: в будущем можно добавить регистрацию админа
             await DisplayAlert("Info", "Регистрация администратора пока недоступна", "OK");
         }
+=======
+
+            // Связываем ViewModel
+            BindingContext = _viewModel = viewModel;
+        }
+
+        // TODO: сюда можно добавить команды/обработчики входа администратора
+>>>>>>> 359d440 (InternshipADDING!)
     }
 }

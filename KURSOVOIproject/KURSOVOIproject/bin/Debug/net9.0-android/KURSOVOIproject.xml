@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KURSOVOIproject</name>
+    </assembly>
+    <members>
+        <member name="T:KURSOVOIproject.Converters.BoolToHeartIconConverter">
+            <summary>
+            Простой конвертер, который принимает булево значение "IsFavorite"
+            и возвращает строку с именем соответствующего файла-иконки.
+            </summary>
+        </member>
+        <member name="T:KURSOVOIproject.Data.SflDbContext">
+            <summary>
+            Контекст базы данных SFL. Создаёт все таблицы при первом запуске.
+            </summary>
+        </member>
+        <member name="M:KURSOVOIproject.MauiProgram.RegisterPage``2(Microsoft.Maui.Hosting.MauiAppBuilder)">
+            <summary>
+            Универсальный метод для регистрации Page + VM
+            </summary>
+        </member>
+        <member name="P:KURSOVOIproject.Models.Student.SkillsString">
+            <summary>
+            Навыки студента, разделённые запятой (например: "C#,Java,Python").
+            </summary>
+        </member>
+        <member name="T:KURSOVOIproject.Services.AdminService">
+            <summary>
+            Заглушечная реализация IAdminService. Пока без фактической логики, только TODO.
+            </summary>
+        </member>
+        <member name="T:KURSOVOIproject.Services.IAdminService">
+            <summary>
+            Интерфейс для работы с административными операциями (удаление/блокировка пользователей, генерация статистики и т. д.)
+            </summary>
+        </member>
+        <member name="M:KURSOVOIproject.Services.IAdminService.BlockStudentAsync(System.Int32)">
+            <summary>
+            Блокирует студента по его Id.
+            </summary>
+        </member>
+        <member name="M:KURSOVOIproject.Services.IAdminService.BlockCompanyAsync(System.Int32)">
+            <summary>
+            Блокирует компанию по ее Id.
+            </summary>
+        </member>
+        <member name="M:KURSOVOIproject.Services.IAdminService.GetInternshipsCountBySpecializationAsync">
+            <summary>
+            Возвращает статистику по стажировкам в разрезе специализаций.
+            </summary>
+        </member>
+        <member name="M:KURSOVOIproject.Services.IAdminService.GetTopCompaniesByInternshipCountAsync(System.Int32)">
+            <summary>
+            Возвращает топ N самых активных компаний.
+            </summary>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.AdminLoginViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.AdminLoginViewModel.Email">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.AdminLoginViewModel.email"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.AdminLoginViewModel.Password">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.AdminLoginViewModel.password"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.AdminLoginViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.AdminLoginViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.AdminPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.AdminPageViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.AdminPageViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.AllInternshipsPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.AllInternshipsPageViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.AllInternshipsPageViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.InternshipDetailViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.InternshipDetailViewModel.Title">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.InternshipDetailViewModel.title"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.InternshipDetailViewModel.CompanyName">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.InternshipDetailViewModel.companyName"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.InternshipDetailViewModel.Requirements">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.InternshipDetailViewModel.requirements"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.InternshipDetailViewModel.IsApplied">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.InternshipDetailViewModel.isApplied"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.LoginViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.LoginViewModel.TelNumber">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.LoginViewModel.telNumber"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.LoginViewModel.Password">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.LoginViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.LoginViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.MessagingViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.MessagingViewModel.NewMessageText">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.MessagingViewModel.newMessageText"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.RegistrationViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.RegistrationViewModel.Name">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.RegistrationViewModel.name"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.RegistrationViewModel.TelNumber">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.RegistrationViewModel.telNumber"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.RegistrationViewModel.Course">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.RegistrationViewModel.course"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.RegistrationViewModel.Password">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.RegistrationViewModel.password"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.RegistrationViewModel.SelectedSpecialization">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.RegistrationViewModel.selectedSpecialization"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.RegistrationViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.RegistrationViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.ResponsesPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.ResponsesPageViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.ResponsesPageViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.SearchPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="M:KURSOVOIproject.ViewModels.SearchPageViewModel.LoadAllAsync">
+            <summary>
+            Загружает все стажировки из сервиса и заполняет коллекции.
+            </summary>
+        </member>
+        <member name="M:KURSOVOIproject.ViewModels.SearchPageViewModel.FilterAsync">
+            <summary>
+            Фильтрует _allInternships по текущей строке поиска SearchQuery
+            и заполняет FilteredInternships.
+            </summary>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.SearchPageViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.SearchPageViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.StatisticsPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.StatisticsPageViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.StatisticsPageViewModel.isBusy"/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.StatisticsPageViewModel.InternshipsBySpecialization">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.StatisticsPageViewModel.internshipsBySpecialization"/>
+        </member>
+        <member name="T:KURSOVOIproject.ViewModels.UsersListPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:KURSOVOIproject.ViewModels.UsersListPageViewModel.IsBusy">
+            <inheritdoc cref="F:KURSOVOIproject.ViewModels.UsersListPageViewModel.isBusy"/>
+        </member>
+        <member name="T:KURSOVOIproject.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CompanyName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CompanyName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Requirements">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Requirements" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsApplied">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsApplied" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TelNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TelNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewMessageText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewMessageText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Course">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Course" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedSpecialization">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedSpecialization" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InternshipsBySpecialization">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InternshipsBySpecialization" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CompanyName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CompanyName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Requirements">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Requirements" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsApplied">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsApplied" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TelNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TelNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewMessageText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewMessageText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Course">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Course" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedSpecialization">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedSpecialization" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InternshipsBySpecialization">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InternshipsBySpecialization" generated properties.</summary>
+        </member>
+    </members>
+</doc>

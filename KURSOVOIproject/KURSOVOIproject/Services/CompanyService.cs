@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Maui.Storage;
 using KURSOVOIproject.Data;
 using KURSOVOIproject.Models;
 
@@ -11,21 +12,12 @@ namespace KURSOVOIproject.Services
         private readonly SflDbContext _db;
         public CompanyService(SflDbContext db) => _db = db;
 
-        public async Task<List<Company>> GetAllAsync() =>
-            await _db.Companies
-                     .Include(c => c.Internships)
-                     .ToListAsync();
+        public async Task<IEnumerable<Company>> GetAllAsync() =>
+            await _db.Companies.Include(c => c.Internships).ToListAsync();
 
         public async Task<Company?> GetByIdAsync(int id) =>
-            await _db.Companies
-                     .Include(c => c.Internships)
-                     .SingleOrDefaultAsync(c => c.Id == id);
-
-        public async Task AddAsync(Company company)
-        {
-            await _db.Companies.AddAsync(company);
-            await _db.SaveChangesAsync();
-        }
+            await _db.Companies.Include(c => c.Internships)
+                               .SingleOrDefaultAsync(c => c.Id == id);
 
         public async Task<Company?> GetByNameAndPasswordAsync(string name, string password)
         {
@@ -33,7 +25,13 @@ namespace KURSOVOIproject.Services
                 return null;
 
             return await _db.Companies
-                .SingleOrDefaultAsync(c => c.Name == name && c.Password == password);
+                            .SingleOrDefaultAsync(c => c.Name == name && c.Password == password);
+        }
+
+        public async Task CreateAsync(Company company)
+        {
+            await _db.Companies.AddAsync(company);
+            await _db.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(Company company)

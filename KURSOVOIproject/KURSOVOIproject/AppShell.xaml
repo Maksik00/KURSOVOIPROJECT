@@ -6,6 +6,7 @@
     xmlns:views="clr-namespace:KURSOVOIproject.Views"
     Title="SFL">
 
+<<<<<<< HEAD
     <!-- flyoutBehavior="Disabled" убирает боковое меню (если нужно) -->
     <Shell.FlyoutBehavior>Disabled</Shell.FlyoutBehavior>
 
@@ -32,5 +33,60 @@
     <ShellContent Route="AllInternships" Title="AllInternships" ContentTemplate="{DataTemplate views:AllInternshipsPage}" />
     <ShellContent Route="Responses" Title="Responses" ContentTemplate="{DataTemplate views:ResponsesPage}" />
     <ShellContent Route="Help" Title="Help" ContentTemplate="{DataTemplate views:HelpPage}" />
+=======
+    <FlyoutItem Title="Главная" Icon="icon_home.png">
+        <ShellContent
+        Title="Лендинг"
+        Route="Landing"
+        ContentTemplate="{DataTemplate views:LandingPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Стажировки" Icon="icon_internships.png">
+        <ShellContent
+        Title="Все стажировки"
+        Route="AllInternships"
+        ContentTemplate="{DataTemplate views:AllInternshipsPage}" />
+        <ShellContent
+        Title="Мои отклики"
+        Route="Responses"
+        ContentTemplate="{DataTemplate views:ResponsesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Профиль" Icon="icon_profile.png">
+        <ShellContent
+        Title="Мой профиль"
+        Route="StudentProfile"
+        ContentTemplate="{DataTemplate views:StudentProfilePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Компания" Icon="icon_company.png">
+        <ShellContent
+        Title="Вход компании"
+        Route="CompanyLogin"
+        ContentTemplate="{DataTemplate views:CompanyLoginPage}" />
+        <ShellContent
+        Title="Профиль компании"
+        Route="CompanyProfile"
+        ContentTemplate="{DataTemplate views:CompanyProfilePage}" />
+        <ShellContent
+        Title="Создать стажировку"
+        Route="CreateInternship"
+        ContentTemplate="{DataTemplate views:CreateInternshipPage}" />
+    </FlyoutItem>
+
+    <!-- Пункты, не в основном Flyout -->
+    <MenuItem
+      Text="Вход администратора"
+      IconImageSource="icon_admin.png"
+      Clicked="OnAdminLoginClicked" />
+    <MenuItem
+      Text="Панель администратора"
+      IconImageSource="icon_dashboard.png"
+      Clicked="OnAdminPanelClicked" />
+    <MenuItem
+      Text="Справка"
+      IconImageSource="icon_help.png"
+      Clicked="OnHelpClicked" />
+>>>>>>> 359d440 (InternshipADDING!)
 
 </Shell>

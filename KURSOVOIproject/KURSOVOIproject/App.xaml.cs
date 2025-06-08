@@ -41,7 +41,7 @@ namespace KURSOVOIproject
         // Для WinUI (desktop) нужно явно переопределить CreateWindow
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(MainPage);
+              return new Window(MainPage);
         }
     }
 }
