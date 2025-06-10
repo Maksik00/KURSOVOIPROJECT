@@ -25,201 +25,145 @@ build_property.CsWinRTComponent =
 build_property.CsWinRTAotOptimizerEnabled = 
 build_property.CsWinRTAotWarningLevel = 
 build_property.RootNamespace = KURSOVOIproject
-build_property.ProjectDir = C:\Users\maks2\source\repos\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\
+build_property.ProjectDir = C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/App.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/AppShell.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/MainPage.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Resources/Styles/Colors.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Resources/Styles/Styles.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/AdminLoginPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/AdminLoginPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/AdminLoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.AdminLoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AdminLoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AdminLoginPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/AdminPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/AdminPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/AdminPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.AdminPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AdminPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AdminPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/AllInternshipsPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/AllInternshipsPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/AllInternshipsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.AllInternshipsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AllInternshipsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AllInternshipsPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/CompanyLoginPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CompanyLoginPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CompanyLoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyLoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CompanyLoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CompanyLoginPage.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CompanyProfilePage.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CompanyProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CompanyProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CompanyProfilePage.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CompanyRegistrationPage.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CompanyRegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CompanyRegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CompanyRegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CompanyRegistrationPage.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CreateInternshipPage.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/CreateInternshipPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.CreateInternshipPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CreateInternshipPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CreateInternshipPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/HelpPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/HelpPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/HelpPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.HelpPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HelpPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HelpPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/InternshipDetailPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/InternshipDetailPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/InternshipDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.InternshipDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\InternshipDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\InternshipDetailPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/LandingPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/LandingPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/LandingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.LandingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LandingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LandingPage.xaml
 
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/LoginPage.xaml]
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/MessagingPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/MessagingPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/MessagingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.MessagingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MessagingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MessagingPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/RegistrationPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/RegistrationPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.RegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegistrationPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/ResponsesPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/ResponsesPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/ResponsesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.ResponsesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ResponsesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ResponsesPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/SearchPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/SearchPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/SearchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.SearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/StatisticsPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/StatisticsPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/StatisticsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.StatisticsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\StatisticsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\StatisticsPage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/StudentProfilePage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/StudentProfilePage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/StudentProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.StudentProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\StudentProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\StudentProfilePage.xaml
 
-<<<<<<< HEAD
-[C:/Users/mel3oron/Source/Repos/KURSOVOIPROJECT/KURSOVOIproject/KURSOVOIproject/Views/UsersListPage.xaml]
-=======
-[C:/Users/maks2/source/repos/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/UsersListPage.xaml]
->>>>>>> 359d440 (InternshipADDING!)
+[C:/KURSOVOIPROJECT-apiDevelop/KURSOVOIproject/KURSOVOIproject/Views/UsersListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = KURSOVOIproject.Views.UsersListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\UsersListPage.xaml
