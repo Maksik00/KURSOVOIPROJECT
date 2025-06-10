@@ -3321,3 +3321,13 @@ C:\Users\maks2\source\repos\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIp
 C:\Users\maks2\source\repos\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\maks2\source\repos\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\maks2\source\repos\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\build.props
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\adb.props
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\_CompileBindingJava.FileList.txt
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\KURSOVOIproject.csproj.AssemblyReference.cache
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\mauiimage.inputs
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\mauifont.inputs
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\mauisplash.inputs
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\mauisplash.stamp
+C:\KURSOVOIPROJECT-apiDevelop\KURSOVOIproject\KURSOVOIproject\obj\Debug\net9.0-android\mauifont.stamp
