@@ -243,12 +243,6 @@
         "net9.0-android35.0/maccatalyst-x64",
         "net9.0-android35.0/win10-x64"
       ]
-    },
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
     }
   ]
 }

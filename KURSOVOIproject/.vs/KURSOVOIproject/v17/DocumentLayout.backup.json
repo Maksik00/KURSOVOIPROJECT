@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\kursovoiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\kursovoiproject-apidevelop\\kursovoiproject\\kursovoiproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\kursovoiproject-apidevelop\\kursovoiproject\\kursovoiproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\kursovoiproject-apidevelop\\kursovoiproject\\kursovoiproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\kursovoiproject-apidevelop\\kursovoiproject\\kursovoiproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\kursovoiproject-apidevelop\\kursovoiproject\\kursovoiproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -430,19 +430,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\KURSOVOIPROJECT-apiDevelop\\KURSOVOIproject\\KURSOVOIproject\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "KURSOVOIproject\\AppShell.xaml.cs",
               "ToolTip": "C:\\KURSOVOIPROJECT-apiDevelop\\KURSOVOIproject\\KURSOVOIproject\\AppShell.xaml.cs",
               "RelativeToolTip": "KURSOVOIproject\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T08:59:09.387Z"
+              "WhenOpened": "2025-06-10T08:59:09.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\KURSOVOIPROJECT-apiDevelop\\KURSOVOIproject\\KURSOVOIproject\\App.xaml",
               "RelativeDocumentMoniker": "KURSOVOIproject\\App.xaml",
@@ -454,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\KURSOVOIPROJECT-apiDevelop\\KURSOVOIproject\\KURSOVOIproject\\App.xaml.cs",
               "RelativeDocumentMoniker": "KURSOVOIproject\\App.xaml.cs",
@@ -583,8 +584,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\ResponsesPage.xaml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAowBEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.434Z"
             },
             {
               "$type": "Document",
@@ -632,8 +632,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\HelpPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.449Z"
             },
             {
               "$type": "Document",
@@ -669,8 +668,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\AllInternshipsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.456Z"
             },
             {
               "$type": "Document",
@@ -706,8 +704,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\UsersListPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.456Z"
             },
             {
               "$type": "Document",
@@ -743,8 +740,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\StatisticsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.456Z"
             },
             {
               "$type": "Document",
@@ -960,8 +956,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\MessagingPage.xaml",
               "ViewState": "AgIAABMAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.503Z"
             },
             {
               "$type": "Document",
@@ -997,8 +992,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\InternshipDetailPage.xaml",
               "ViewState": "AgIAABkAAAAAAAAAAAAmwCkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.503Z"
             },
             {
               "$type": "Document",
@@ -1022,8 +1016,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\AdminPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.503Z"
             },
             {
               "$type": "Document",
@@ -1035,8 +1028,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\AdminLoginPage.xaml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.503Z"
             },
             {
               "$type": "Document",
@@ -1096,8 +1088,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyLoginPage.xaml",
               "ViewState": "AgIAABoAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.518Z"
             },
             {
               "$type": "Document",
@@ -1253,8 +1244,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\StudentProfilePage.xaml",
               "ViewState": "AgIAAG8AAAAAAAAAAAAYwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.55Z"
             },
             {
               "$type": "Document",
@@ -1266,8 +1256,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\RegistrationPage.xaml",
               "ViewState": "AgIAAFsAAAAAAAAAAAAQwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.557Z"
             },
             {
               "$type": "Document",
@@ -1291,8 +1280,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\LoginPage.xaml",
               "ViewState": "AgIAADQAAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.559Z"
             },
             {
               "$type": "Document",
@@ -1316,8 +1304,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\SearchPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.559Z"
             },
             {
               "$type": "Document",
@@ -1341,8 +1328,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml",
               "ViewState": "AgIAACAAAAAAAAAAAAAYwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.57Z"
             },
             {
               "$type": "Document",
@@ -1354,8 +1340,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyProfilePage.xaml",
               "ViewState": "AgIAAFsAAAAAAAAAAAAYwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.57Z"
             },
             {
               "$type": "Document",
@@ -1367,8 +1352,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\CreateInternshipPage.xaml",
               "ViewState": "AgIAADkAAAAAAAAAAAAYwEUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.57Z"
             },
             {
               "$type": "Document",
@@ -1416,8 +1400,7 @@
               "RelativeToolTip": "KURSOVOIproject\\Views\\LandingPage.xaml",
               "ViewState": "AgIAAEgAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-10T08:59:09.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T08:59:09.58Z"
             },
             {
               "$type": "Document",
