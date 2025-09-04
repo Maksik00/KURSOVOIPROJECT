@@ -1,12 +1,806 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\KURSOVOIproject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\kursovoiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\kursovoiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\companyregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\companyregistrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\viewmodels\\searchpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\viewmodels\\searchpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\models\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\models\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\data\\sfldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\data\\sfldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\converters\\booltohearticonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\converters\\booltohearticonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\viewmodels\\studentprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\viewmodels\\studentprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\viewmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\viewmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\viewmodels\\companyprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\viewmodels\\companyprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\internshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\internshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\iinternshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\iinternshipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\services\\ispecializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\services\\ispecializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\models\\internship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\models\\internship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\models\\applicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\models\\applicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\studentprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\studentprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\studentprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\studentprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\createinternshippage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\createinternshippage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\companyregistrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\companyregistrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\companyprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\companyprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\companyloginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\companyloginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\createinternshippage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\createinternshippage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\companyprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\companyprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\companyloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\companyloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\landingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\landingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\views\\landingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\views\\landingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|c:\\users\\mel3oron\\source\\repos\\kursovoiproject\\kursovoiproject\\kursovoiproject\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E724F36-3836-4A05-BC0A-D58ABFDB47BE}|KURSOVOIproject\\KURSOVOIproject.csproj|solutionrelative:kursovoiproject\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KURSOVOIproject\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SflDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Data\\SflDbContext.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Data\\SflDbContext.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Data\\SflDbContext.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Data\\SflDbContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:18:14.347Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\MauiProgram.cs",
+              "RelativeToolTip": "KURSOVOIproject\\MauiProgram.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:09:17.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KURSOVOIproject.csproj",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\Source\\Repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\KURSOVOIproject.csproj",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\KURSOVOIproject.csproj",
+              "ToolTip": "C:\\Users\\mel3oron\\Source\\Repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\KURSOVOIproject.csproj",
+              "RelativeToolTip": "KURSOVOIproject\\KURSOVOIproject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T08:09:32.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\AppShell.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\AppShell.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:35:40.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\AppShell.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\AppShell.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\AppShell.xaml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T10:22:28.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Specialization.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Specialization.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Models\\Specialization.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Specialization.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Models\\Specialization.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:00:19.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\SearchPageViewModel.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\ViewModels\\SearchPageViewModel.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\SearchPageViewModel.cs",
+              "RelativeToolTip": "KURSOVOIproject\\ViewModels\\SearchPageViewModel.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAqwJgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T09:05:52.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\IStudentService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:03:52.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\StudentService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\StudentService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:04:30.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyRegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:36:27.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\App.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\App.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvx4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:24:30.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\App.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\App.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\App.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T10:24:10.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\StudentProfileViewModel.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\ViewModels\\StudentProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\StudentProfileViewModel.cs",
+              "RelativeToolTip": "KURSOVOIproject\\ViewModels\\StudentProfileViewModel.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAYwHAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:20:36.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompanyProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\CompanyProfileViewModel.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\ViewModels\\CompanyProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\CompanyProfileViewModel.cs",
+              "RelativeToolTip": "KURSOVOIproject\\ViewModels\\CompanyProfileViewModel.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:19:57.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "KURSOVOIproject\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:19:51.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InternshipService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\InternshipService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\InternshipService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\InternshipService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\InternshipService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:00:01.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "KURSOVOIproject\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:07:39.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BoolToHeartIconConverter.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Converters\\BoolToHeartIconConverter.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Converters\\BoolToHeartIconConverter.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Converters\\BoolToHeartIconConverter.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Converters\\BoolToHeartIconConverter.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:11:45.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IInternshipService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\IInternshipService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\IInternshipService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\IInternshipService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\IInternshipService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:59:34.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\ViewModels\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\ViewModels\\RegistrationViewModel.cs",
+              "RelativeToolTip": "KURSOVOIproject\\ViewModels\\RegistrationViewModel.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:11:00.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\CompanyService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\CompanyService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:13:00.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SpecializationService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\SpecializationService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\SpecializationService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\SpecializationService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\SpecializationService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:08:44.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\IApplicationService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\IApplicationService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\IApplicationService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\IApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:07:49.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\ApplicationService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\ApplicationService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\ApplicationService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\ApplicationService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:08:04.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ISpecializationService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\ISpecializationService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\ISpecializationService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\ISpecializationService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\ISpecializationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:08:27.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Student.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Models\\Student.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwD8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:57:52.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Internship.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Internship.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Models\\Internship.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Internship.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Models\\Internship.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:59:19.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Services\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Services\\ICompanyService.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Services\\ICompanyService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:05:21.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\Company.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Models\\Company.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:58:30.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationEntity.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\ApplicationEntity.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Models\\ApplicationEntity.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Models\\ApplicationEntity.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Models\\ApplicationEntity.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:59:51.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\StudentProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\StudentProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\StudentProfilePage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\StudentProfilePage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:02:04.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StudentProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\StudentProfilePage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\StudentProfilePage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\StudentProfilePage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\StudentProfilePage.xaml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAYwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T06:01:55.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\RegistrationPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\RegistrationPage.xaml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T10:21:24.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:16:25.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T05:15:56.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:21:37.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\SearchPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\SearchPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\SearchPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T05:26:26.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\SearchPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\SearchPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:30:55.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CompanyRegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyRegistrationPage.xaml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T11:35:57.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CompanyProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyProfilePage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CompanyProfilePage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyProfilePage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyProfilePage.xaml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T05:17:52.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CompanyLoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyLoginPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CompanyLoginPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyLoginPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyLoginPage.xaml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T05:15:16.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateInternshipPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CreateInternshipPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CreateInternshipPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CreateInternshipPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CreateInternshipPage.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T05:20:35.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateInternshipPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CreateInternshipPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CreateInternshipPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CreateInternshipPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CreateInternshipPage.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:21:38.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CompanyProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CompanyProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyProfilePage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyProfilePage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:18:02.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CompanyLoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyLoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\CompanyLoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\CompanyLoginPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\CompanyLoginPage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:15:27.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LandingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LandingPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\LandingPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LandingPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\LandingPage.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T05:22:35.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\MainPage.xaml",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\MainPage.xaml",
+              "RelativeToolTip": "KURSOVOIproject\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T10:33:26.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LandingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LandingPage.xaml.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\Views\\LandingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\Views\\LandingPage.xaml.cs",
+              "RelativeToolTip": "KURSOVOIproject\\Views\\LandingPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:23:46.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "KURSOVOIproject\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\mel3oron\\source\\repos\\KURSOVOIPROJECT\\KURSOVOIproject\\KURSOVOIproject\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "KURSOVOIproject\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAtwEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:38:25.715Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

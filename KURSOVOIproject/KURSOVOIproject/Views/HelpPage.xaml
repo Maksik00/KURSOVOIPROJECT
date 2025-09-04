@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.HelpPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Помощь">
+    <ScrollView Padding="20">
+        <Label Text="Здесь будут инструкции по использованию приложения «SFL»..." 
+           TextColor="White" />
+        <!-- TODO: наполнить реальным содержимым -->
+    </ScrollView>
+</ContentPage>

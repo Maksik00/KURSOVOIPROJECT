@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.MessagingPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Сообщения">
+
+    <Grid RowDefinitions="*, Auto">
+        <!-- 1) ListView/CollectionView с перепиской -->
+        <CollectionView x:Name="MessagesCollection"
+                    ItemsSource="{Binding Messages}"
+                    BackgroundColor="Black"
+                    Margin="10"
+                    SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10"
+                 Margin="0,5"
+                 CornerRadius="10"
+                 BackgroundColor="{Binding IsMine, Converter={StaticResource BoolToChatColorConverter}}">
+                        <Label Text="{Binding Text}"
+                   TextColor="White" />
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- 2) Панель ввода нового сообщения -->
+        <StackLayout Grid.Row="1"
+                 Orientation="Horizontal"
+                 BackgroundColor="#1E1E1E"
+                 Padding="10">
+            <Entry x:Name="NewMessageEntry"
+             HorizontalOptions="FillAndExpand"
+             TextColor="White"
+             BackgroundColor="#333333"
+             Placeholder="Напишите сообщение..." />
+
+            <Button Text="Отправить"
+              BackgroundColor="#0066FF"
+              TextColor="White"
+              Clicked="OnSendMessageClicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
