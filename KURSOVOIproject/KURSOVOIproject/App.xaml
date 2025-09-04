@@ -1,14 +1,14 @@
-﻿<?xml version = "1.0" encoding = "UTF-8" ?>
-<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:KURSOVOIproject"
-             x:Class="KURSOVOIproject.App">
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="KURSOVOIproject.App"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <Application.Resources>
+        <!-- Цвета, стили, словари ресурсов -->
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="PrimaryColor">#2196F3</Color>
+            <Color x:Key="BackgroundColor">#121212</Color>
+            <!-- TODO: добавить другие стили / темы -->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

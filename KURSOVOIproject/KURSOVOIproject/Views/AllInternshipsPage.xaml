@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.AllInternshipsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Все стажировки">
+<<<<<<< HEAD
+    <CollectionView 
+      x:Name="InternshipsCollectionView"
+      IsRefreshing="{Binding IsBusy}"
+      ItemsSource="{Binding Internships}"
+      Margin="10">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame CornerRadius="5"
+               BackgroundColor="#1E1E1E"
+               Padding="10"
+               Margin="5">
+                    <StackLayout>
+                        <Label Text="{Binding Title}" 
+                   FontAttributes="Bold" 
+                   TextColor="White" 
+                   FontSize="16"/>
+                        <Label Text="{Binding CompanyName}" 
+                   TextColor="#AAAAAA" 
+                   FontSize="14"/>
+                        <Label Text="{Binding Requirements}" 
+                   TextColor="White" 
+                   FontSize="14"/>
+                        <Button Text="Удалить" 
+                    TextColor="White" 
+                    BackgroundColor="#b22222"
+                    Command="{Binding BindingContext.DeleteInternshipCommand, Source={x:Reference InternshipsCollectionView}}"
+                    CommandParameter="{Binding Id}" />
+                    </StackLayout>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+=======
+
+    <!-- Pull-to-refresh -->
+    <RefreshView
+      IsRefreshing="{Binding IsBusy}"
+      Command="{Binding RefreshCommand}">
+
+        <CollectionView
+        x:Name="InternshipsCollectionView"
+        ItemsSource="{Binding Internships}"
+        Margin="10">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame
+              CornerRadius="5"
+              BackgroundColor="#1E1E1E"
+              Padding="10"
+              Margin="5">
+                        <StackLayout>
+                            <!-- Название стажировки -->
+                            <Label
+                  Text="{Binding Title}"
+                  FontAttributes="Bold"
+                  TextColor="White"
+                  FontSize="16" />
+
+                            <!-- Компания -->
+                            <Label
+                  Text="{Binding CompanyName}"
+                  TextColor="#AAAAAA"
+                  FontSize="14" />
+
+                            <!-- Требования -->
+                            <Label
+                  Text="{Binding Requirements}"
+                  TextColor="White"
+                  FontSize="14" />
+
+                            <!-- Кнопка удаления (только для админа/организации) -->
+                            <Button
+                  Text="Удалить"
+                  TextColor="White"
+                  BackgroundColor="#b22222"
+                  Command="{Binding BindingContext.DeleteInternshipCommand, Source={x:Reference InternshipsCollectionView}}"
+                  CommandParameter="{Binding Id}" />
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </RefreshView>
+>>>>>>> 359d440 (InternshipADDING!)
+</ContentPage>

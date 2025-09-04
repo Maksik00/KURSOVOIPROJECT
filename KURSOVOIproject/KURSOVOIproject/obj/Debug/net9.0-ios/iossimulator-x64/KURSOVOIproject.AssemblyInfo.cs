@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KURSOVOIproject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0aee20fd33cf2473d1227b8ad4352b61dfb2a110")]
 [assembly: System.Reflection.AssemblyProductAttribute("KURSOVOIproject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KURSOVOIproject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.1")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.2")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS15.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KURSOVOIproject.Views.CreateInternshipPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sys="clr-namespace:System;assembly=netstandard"
+    Title="Создать стажировку">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Название стажировки -->
+            <Label Text="Название стажировки" />
+            <Entry
+          Text="{Binding Title}"
+          Placeholder="Введите название"
+          BackgroundColor="#1E1E1E"
+          TextColor="White" />
+
+            <!-- Специализация -->
+            <Label Text="Специализация" />
+            <Picker
+          ItemsSource="{Binding Specializations}"
+          ItemDisplayBinding="{Binding Name}"
+          SelectedItem="{Binding SelectedSpecialization}"
+          Title="Выберите специализацию"
+          BackgroundColor="#1E1E1E"
+          TextColor="White" />
+
+            <!-- Место проведения -->
+            <Label Text="Место проведения" />
+            <Entry
+          Text="{Binding Location}"
+          Placeholder="Город, офис и т. п."
+          BackgroundColor="#1E1E1E"
+          TextColor="White" />
+
+            <!-- Требования -->
+            <Label Text="Требования" />
+            <Editor
+          Text="{Binding Requirements}"
+          Placeholder="Опишите требования"
+          AutoSize="TextChanges"
+          BackgroundColor="#1E1E1E"
+          TextColor="White"
+          HeightRequest="80" />
+
+            <!-- Даты начала и окончания -->
+            <Grid ColumnDefinitions="1*,1*" ColumnSpacing="10">
+                <StackLayout>
+                    <Label Text="Дата начала" />
+                    <DatePicker
+              Date="{Binding StartDate}"
+              MaximumDate="{x:Static sys:DateTime.MaxValue}" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Дата окончания" />
+                    <DatePicker
+              Date="{Binding EndDate}"
+              MinimumDate="{Binding StartDate}"
+              MaximumDate="{x:Static sys:DateTime.MaxValue}" />
+                </StackLayout>
+            </Grid>
+
+            <!-- Сохранить -->
+            <Button
+          Text="Сохранить"
+          Command="{Binding SaveCommand}"
+          IsEnabled="{Binding IsNotBusy}"
+          BackgroundColor="#2E7D32"
+          TextColor="White"
+          CornerRadius="5"
+          HeightRequest="50" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

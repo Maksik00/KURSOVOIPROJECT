@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="KURSOVOIproject.Views.AdminPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:KURSOVOIproject.Views"
+    Title="Админ-панель">
+
+    <!-- 1) Вкладка: Управление пользователями -->
+    <ContentPage Title="Пользователи" IconImageSource="icon_users.png">
+        <StackLayout Padding="10">
+            <!-- TODO: Контрол для фильтрации / поиска пользователей -->
+            <!-- TODO: CollectionView для списка всех студентов и всех компаний -->
+            <!-- TODO: Для каждого пользователя кнопка «Заблокировать / Разблокировать» -->
+        </StackLayout>
+    </ContentPage>
+
+    <!-- 2) Вкладка: Управление стажировками -->
+    <ContentPage Title="Стажировки" IconImageSource="icon_internships.png">
+        <StackLayout Padding="10">
+            <!-- TODO: CollectionView со списком всех стажировок (титул, компания, даты) -->
+            <!-- TODO: Для каждой стажировки кнопка «Удалить» и «Редактировать» -->
+        </StackLayout>
+    </ContentPage>
+
+    <!-- 3) Вкладка: Статистика -->
+    <ContentPage Title="Статистика" IconImageSource="icon_stats.png">
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- TODO: Chart или коллекция лейблов, показывающая:
+             - Количество стажировок по специализациям
+             - Топ–5 компаний (по числу опубликованных стажировок)
+             - Общая статистика регистраций студентов/компаний -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

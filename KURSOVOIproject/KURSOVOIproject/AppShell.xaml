@@ -1,15 +1,92 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Shell
     x:Class="KURSOVOIproject.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:KURSOVOIproject"
-    Shell.FlyoutBehavior="Flyout"
-    Title="KURSOVOIproject">
+    xmlns:views="clr-namespace:KURSOVOIproject.Views"
+    Title="SFL">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+<<<<<<< HEAD
+    <!-- flyoutBehavior="Disabled" убирает боковое меню (если нужно) -->
+    <Shell.FlyoutBehavior>Disabled</Shell.FlyoutBehavior>
+
+    <!-- Маршруты (registration of routes) -->
+    <ShellContent Route="Landing" Title="Landing" ContentTemplate="{DataTemplate views:LandingPage}" />
+
+    <!-- Студентская часть -->
+    <ShellContent Route="Login" Title="StudentLogin" ContentTemplate="{DataTemplate views:LoginPage}" />
+    <ShellContent Route="Registration" Title="StudentRegistration" ContentTemplate="{DataTemplate views:RegistrationPage}" />
+    <ShellContent Route="Search" Title="Search" ContentTemplate="{DataTemplate views:SearchPage}" />
+    <ShellContent Route="StudentProfile" Title="StudentProfile" ContentTemplate="{DataTemplate views:StudentProfilePage}" />
+
+    <!-- Компания -->
+    <ShellContent Route="CompanyLogin" Title="CompanyLogin" ContentTemplate="{DataTemplate views:CompanyLoginPage}" />
+    <ShellContent Route="CompanyRegistration" Title="CompanyRegistration" ContentTemplate="{DataTemplate views:CompanyRegistrationPage}" />
+    <ShellContent Route="CompanyProfile" Title="CompanyProfile" ContentTemplate="{DataTemplate views:CompanyProfilePage}" />
+    <ShellContent Route="CreateInternship" Title="CreateInternship" ContentTemplate="{DataTemplate views:CreateInternshipPage}" />
+
+    <!-- Администратор -->
+    <ShellContent Route="AdminLogin" Title="AdminLogin" ContentTemplate="{DataTemplate views:AdminLoginPage}" />
+    <ShellContent Route="Admin" Title="AdminPanel" ContentTemplate="{DataTemplate views:AdminPage}" />
+    <ShellContent Route="Statistics" Title="Statistics" ContentTemplate="{DataTemplate views:StatisticsPage}" />
+    <ShellContent Route="UsersList" Title="UsersList" ContentTemplate="{DataTemplate views:UsersListPage}" />
+    <ShellContent Route="AllInternships" Title="AllInternships" ContentTemplate="{DataTemplate views:AllInternshipsPage}" />
+    <ShellContent Route="Responses" Title="Responses" ContentTemplate="{DataTemplate views:ResponsesPage}" />
+    <ShellContent Route="Help" Title="Help" ContentTemplate="{DataTemplate views:HelpPage}" />
+=======
+    <FlyoutItem Title="Главная" Icon="icon_home.png">
+        <ShellContent
+        Title="Лендинг"
+        Route="Landing"
+        ContentTemplate="{DataTemplate views:LandingPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Стажировки" Icon="icon_internships.png">
+        <ShellContent
+        Title="Все стажировки"
+        Route="AllInternships"
+        ContentTemplate="{DataTemplate views:AllInternshipsPage}" />
+        <ShellContent
+        Title="Мои отклики"
+        Route="Responses"
+        ContentTemplate="{DataTemplate views:ResponsesPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Профиль" Icon="icon_profile.png">
+        <ShellContent
+        Title="Мой профиль"
+        Route="StudentProfile"
+        ContentTemplate="{DataTemplate views:StudentProfilePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Компания" Icon="icon_company.png">
+        <ShellContent
+        Title="Вход компании"
+        Route="CompanyLogin"
+        ContentTemplate="{DataTemplate views:CompanyLoginPage}" />
+        <ShellContent
+        Title="Профиль компании"
+        Route="CompanyProfile"
+        ContentTemplate="{DataTemplate views:CompanyProfilePage}" />
+        <ShellContent
+        Title="Создать стажировку"
+        Route="CreateInternship"
+        ContentTemplate="{DataTemplate views:CreateInternshipPage}" />
+    </FlyoutItem>
+
+    <!-- Пункты, не в основном Flyout -->
+    <MenuItem
+      Text="Вход администратора"
+      IconImageSource="icon_admin.png"
+      Clicked="OnAdminLoginClicked" />
+    <MenuItem
+      Text="Панель администратора"
+      IconImageSource="icon_dashboard.png"
+      Clicked="OnAdminPanelClicked" />
+    <MenuItem
+      Text="Справка"
+      IconImageSource="icon_help.png"
+      Clicked="OnHelpClicked" />
+>>>>>>> 359d440 (InternshipADDING!)
 
 </Shell>
